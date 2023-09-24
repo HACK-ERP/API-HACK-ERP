@@ -2,6 +2,10 @@
 const User = require('../Models/User.model');
 
 module.exports.create = (req, res, next) => {
+    if (req.file) {
+        req.body.profilePicture = req.file.path;
+      }
+    
     const user = new User(req.body);
     user.save()
         .then((user) => res.status(201).json(user))

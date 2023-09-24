@@ -34,7 +34,7 @@ const userSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        enum: ['ADMIN', 'USER'],
+        enum: ['ADMIN', 'SALES', 'PRODUCTION', 'WAREHOUSE', 'PURCHASING'],
         default: 'USER'
     },
     avatar: {
@@ -68,14 +68,3 @@ userSchema.methods.checkPassword = function (passwordToCheck) {
 
 const User = mongoose.model('User', userSchema);
 module.exports = User;
-
-
-//json del usuario
-// {
-//     "name": "Juan",
-//     "surname": "Perez",
-//     "email": "juanperez@gmail",
-//     "password": "1234",
-//     "phone": 123456789,
-//     "role": "ADMIN"
-// }
