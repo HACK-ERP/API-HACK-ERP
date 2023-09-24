@@ -1,0 +1,183 @@
+[
+    {
+      "name": "Arnold Schwarzenegger",
+      "surname": "Schwarzenegger",
+      "email": "arnold@hack-erp.com",
+      "password": "password123",
+      "phone": 1111111111,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/sOkCXc9xuSr6v7mdAq9LwEBje68.jpg"
+    },
+    {
+      "name": "Ben Affleck",
+      "surname": "Affleck",
+      "email": "ben@hack-erp.com",
+      "password": "password123",
+      "phone": 2222222222,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/cPuPt6mYJ83DjvO3hbjNGug6Fbi.jpg"
+    },
+    {
+      "name": "Idris Elba",
+      "surname": "Elba",
+      "email": "idris@hack-erp.com",
+      "password": "password123",
+      "phone": 3333333333,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/d9NkfCwczP0TjgrjpF94jF67SK8.jpg"
+    },
+    {
+      "name": "Johnny Depp",
+      "surname": "Depp",
+      "email": "johnny@hack-erp.com",
+      "password": "password123",
+      "phone": 4444444444,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/kbWValANhZI8rbWZXximXuMN4UN.jpg"
+    },
+    {
+      "name": "Monica Bellucci",
+      "surname": "Bellucci",
+      "email": "monica@hack-erp.com",
+      "password": "password123",
+      "phone": 5555555555,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/qlT4904d8oi2NIs28RrgnIZDFZB.jpg"
+    },
+    {
+      "name": "Gal Gadot",
+      "surname": "Gadot",
+      "email": "gal@hack-erp.com",
+      "password": "password123",
+      "phone": 6666666666,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/34kHAyBaBhq2kUrmhM15paEBuuI.jpg"
+    },
+    {
+      "name": "Ian McKellen",
+      "surname": "McKellen",
+      "email": "ian@hack-erp.com",
+      "password": "password123",
+      "phone": 7777777777,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/coWjgMEYJjk2OrNddlXCBm8EIr3.jpg"
+    },
+    {
+      "name": "Matt Damon",
+      "surname": "Damon",
+      "email": "matt@hack-erp.com",
+      "password": "password123",
+      "phone": 8888888888,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/elSlNgV8xVifsbHpFsqrPGxJToZ.jpg"
+    },
+    {
+      "name": "David Harbour",
+      "surname": "Harbour",
+      "email": "david@hack-erp.com",
+      "password": "password123",
+      "phone": 4444444444,
+      "role": "ADMIN",
+      "avatar": "https://image.tmdb.org/t/p/w500/chPekukMF5SNnW6b22NbYPqAStr.jpg"
+    },
+    {
+      "name": "Ansel Elgort",
+      "surname": "Elgort",
+      "email": "ansel@hack-erp.com",
+      "password": "password123",
+      "phone": 6666666666,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/uQYUfGvOZkB5x25Z19UeyLABHmr.jpg"
+    },
+    {
+      "name": "Maria Bello",
+      "surname": "Bello",
+      "email": "maria@hack-erp.com",
+      "password": "password123",
+      "phone": 2222222222,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/tFkbad0JoWvYc6XYBITv6EfeLwR.jpg"
+    },
+    {
+      "name": "Ryan Reynolds",
+      "surname": "Reynolds",
+      "email": "ryan@hack-erp.com",
+      "password": "password123",
+      "phone": 5555555555,
+      "role": "ADMIN",
+      "avatar": "https://image.tmdb.org/t/p/w500/h1co81QaT2nJA41Sb7eZwmWl1L2.jpg"
+    },
+    {
+      "name": "James McAvoy",
+      "surname": "McAvoy",
+      "email": "james@hack-erp.com",
+      "password": "password123",
+      "phone": 9999999999,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/oPIfGm3mf4lbmO5pWwMvfTt5BM1.jpg"
+    },
+    {
+      "name": "Robin Wright",
+      "surname": "Wright",
+      "email": "robin@hack-erp.com",
+      "password": "password123",
+      "phone": 8888888888,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/cke0NNZP4lHRtOethRy2XGSOp3E.jpg"
+    },
+    {
+      "name": "Hugh Jackman",
+      "surname": "Jackman",
+      "email": "hugh@hack-erp.com",
+      "password": "password123",
+      "phone": 7777777777,
+      "role": "ADMIN",
+      "avatar": "https://image.tmdb.org/t/p/w500/auFsy7xWxLHGCNUUGHLivFsfqyd.jpg"
+    },
+    {
+      "name": "Natalie Portman",
+      "surname": "Portman",
+      "email": "natalie@hack-erp.com",
+      "password": "password123",
+      "phone": 6666666666,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/i9f0NnU7TTZn2bhdS9moRdfQD9h.jpg"
+    },
+    {
+      "name": "Tom Cruise",
+      "surname": "Cruise",
+      "email": "tom@hack-erp.com",
+      "password": "password123",
+      "phone": 5555555555,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/9zChEEFAtz0A9LQ9lXV7y7HEpbz.jpg"
+    },
+    {
+      "name": "Charlize Theron",
+      "surname": "Theron",
+      "email": "charlize@hack-erp.com",
+      "password": "password123",
+      "phone": 4444444444,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/zuvs7U7t0f5Gg9tXxnBJz0QGDma.jpg"
+    },
+    {
+      "name": "Brad Pitt",
+      "surname": "Pitt",
+      "email": "brad@hack-erp.com",
+      "password": "password123",
+      "phone": 3333333333,
+      "role": "USER",
+      "avatar": "https://image.tmdb.org/t/p/w500/4XVmG2aA76bqnr7lgWix0seSYf4.jpg"
+    },
+    {
+      "name": "Angelina Jolie",
+      "surname": "Jolie",
+      "email": "angelina@hack-erp.com",
+      "password": "password123",
+      "phone": 2222222222,
+      "role": "ADMIN",
+      "avatar": "https://image.tmdb.org/t/p/w500/cpqXvnoV2H7XWSwCD9jRxW5hU2K.jpg"
+    }
+  ]
+  
