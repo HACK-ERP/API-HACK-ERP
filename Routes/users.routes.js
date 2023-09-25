@@ -13,7 +13,8 @@ router.post('/user/create', usersController.create);
 router.get('/users/list', usersController.list);
 
 //auth
-router.post('/user/login', authController.login);
+router.post('/user/login-mail', authController.loginMail);
+router.post('/user/login-phone', authController.loginPhone);
 
 
 module.exports = router;
