@@ -29,6 +29,9 @@ app.get('/', (req, res) => { res.send('Hello World') }) // Ruta de prueba);
 const authRoutes = require('./Routes/users.routes');
 app.use('/hackerp', authRoutes);
 
+const routes = require('./Routes/products.routes');
+app.use('/hackerp', routes);
+
 //Middleware general de errores
 app.use((req, res, next) => {
     next(createError(StatusCodes.NOT_FOUND, 'Route not found'))

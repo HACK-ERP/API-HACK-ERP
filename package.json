@@ -7,7 +7,8 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js -e hbs,js,css",
-    "users.seeds": "node ./seeds/users.seed.js"
+    "users.seeds": "node ./seeds/users.seed.js",
+    "products.seeds": "node ./seeds/products.seed.js"
   },
   "author": "",
   "license": "ISC",
