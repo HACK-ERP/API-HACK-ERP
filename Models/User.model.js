@@ -41,7 +41,19 @@ const userSchema = new mongoose.Schema({
         type: String,
         default: 'https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png'
     }
-}, { timestamps: true });
+}, { 
+    timestamps: true,
+    toJSON: {
+        virtuals: true,
+        transform: (doc, ret) => {
+          ret.id = doc.id;
+          delete ret._id;
+          delete ret.__v;
+          delete ret.password;
+          return ret;
+        }
+      }
+ });
 
 userSchema.pre('save', function (next) {
     const user = this;
