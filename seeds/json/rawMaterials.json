@@ -1,0 +1,124 @@
+{
+  "materiasPrimas": [
+    {
+      "name": "Acero Negro",
+      "description": "Material de acero negro utilizado en la fabricación de productos metálicos.",
+      "price": 100.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Acero Galvanizado",
+      "description": "Material de acero galvanizado utilizado en la fabricación de productos metálicos.",
+      "price": 120.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Tornillos de Acero",
+      "description": "Tornillos de acero utilizados en la fijación de componentes metálicos.",
+      "price": 0.1,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Aluminio",
+      "description": "Material de aluminio utilizado en la fabricación de componentes ligeros.",
+      "price": 150.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Cobre",
+      "description": "Material de cobre utilizado en la fabricación de conductores eléctricos.",
+      "price": 200.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Plástico ABS",
+      "description": "Material de plástico ABS utilizado en la fabricación de componentes plásticos.",
+      "price": 80.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Plástico PVC",
+      "description": "Material de plástico PVC utilizado en la fabricación de tuberías.",
+      "price": 75.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Hierro Fundido",
+      "description": "Material de hierro fundido utilizado en la fabricación de piezas resistentes.",
+      "price": 180.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Plata",
+      "description": "Material de plata utilizada en la fabricación de componentes electrónicos.",
+      "price": 50.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Vidrio Templado",
+      "description": "Material de vidrio templado utilizado en la fabricación de paneles de vidrio.",
+      "price": 15.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Fibra de Vidrio",
+      "description": "Material de fibra de vidrio utilizado en la fabricación de componentes livianos y resistentes.",
+      "price": 120.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Polietileno",
+      "description": "Material de polietileno utilizado en la fabricación de envases y componentes plásticos.",
+      "price": 70.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Bronce",
+      "description": "Material de bronce utilizado en la fabricación de componentes resistentes y decorativos.",
+      "price": 160.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Fibra de Carbono",
+      "description": "Material de fibra de carbono utilizado en la fabricación de componentes ligeros y resistentes.",
+      "price": 300.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    },
+    {
+      "name": "Hormigón",
+      "description": "Material de hormigón utilizado en la construcción de estructuras sólidas.",
+      "price": 50.0,
+      "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+      "stock": 0,
+      "supliers": []
+    }
+  ]
+}

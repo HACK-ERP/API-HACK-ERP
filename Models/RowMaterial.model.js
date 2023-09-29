@@ -1,6 +1,8 @@
+//RowMaterials model
+
 const mongoose = require('mongoose');
 
-const productSchema = new mongoose.Schema({
+const rowMaterialSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, 'Name is required'],
@@ -20,22 +22,23 @@ const productSchema = new mongoose.Schema({
         type: String,
         default: 'https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png'
     },
-    materials: [
+    stock: {
+        type: Number,
+        required: [true, 'Stock is required'],
+        deffault: 0,
+        trim: true
+    },
+    supliers:[
         {
-          material_id: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: 'Material',
-            required: [true, 'Material ID is required'],
-          },
-          quantity: {
-            type: Number,
-            required: [true, 'Quantity is required'],
-            min: 0,
-          },
+            suplier_id: {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: 'Suplier',
+                required: [true, 'Suplier ID is required'],
+            },
         },
-      ],
+    ],
 }, { timestamps: true });
 
-const Product = mongoose.model('Product', productSchema);
+const RowMaterial = mongoose.model('RowMaterial', rowMaterialSchema);
 
-module.exports = Product;
+module.exports = RowMaterial;
