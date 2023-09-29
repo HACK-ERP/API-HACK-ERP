@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Proveedor 1",
+    "cif": "CIF123",
+    "address": "Dirección 1",
+    "phone": 1234567890,
+    "email": "proveedor1@example.com",
+    "rowMaterials": []
+  },
+  {
+    "name": "Proveedor 2",
+    "cif": "CIF456",
+    "address": "Dirección 2",
+    "phone": 9876543210,
+    "email": "proveedor2@example.com",
+    "rowMaterials": []
+  },
+  {
+    "name": "Proveedor 3",
+    "cif": "CIF789",
+    "address": "Dirección 3",
+    "phone": 5555555555,
+    "email": "proveedor3@example.com",
+    "rowMaterials": []
+  },
+  {
+    "name": "Proveedor 4",
+    "cif": "CIF101",
+    "address": "Dirección 4",
+    "phone": 1111111111,
+    "email": "proveedor4@example.com",
+    "rowMaterials": []
+  },
+  {
+    "name": "Proveedor 5",
+    "cif": "CIF202",
+    "address": "Dirección 5",
+    "phone": 2222222222,
+    "email": "proveedor5@example.com",
+    "rowMaterials": []
+  },
+  {
+    "name": "Proveedor 6",
+    "cif": "CIF303",
+    "address": "Dirección 6",
+    "phone": 3333333333,
+    "email": "proveedor6@example.com",
+    "rowMaterials": []
+  },
+  {
+    "name": "Proveedor 7",
+    "cif": "CIF404",
+    "address": "Dirección 7",
+    "phone": 4444444444,
+    "email": "proveedor7@example.com",
+    "rowMaterials": []
+  },
+  {
+    "name": "Proveedor 8",
+    "cif": "CIF505",
+    "address": "Dirección 8",
+    "phone": 5555555555,
+    "email": "proveedor8@example.com",
+    "rowMaterials": []
+  },
+  {
+    "name": "Proveedor 9",
+    "cif": "CIF606",
+    "address": "Dirección 9",
+    "phone": 6666666666,
+    "email": "proveedor9@example.com",
+    "rowMaterials": []
+  },
+  {
+    "name": "Proveedor 10",
+    "cif": "CIF707",
+    "address": "Dirección 10",
+    "phone": 7777777777,
+    "email": "proveedor10@example.com",
+    "rowMaterials": []
+  }
+]

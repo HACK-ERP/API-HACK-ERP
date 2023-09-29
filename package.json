@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js -e hbs,js,css",
     "users.seeds": "node ./seeds/users.seed.js",
-    "products.seeds": "node ./seeds/products.seed.js"
+    "products.seeds": "node ./seeds/products.seed.js",
+    "suppliers.seeds": "node ./seeds/suppliers.seed.js",
+    "rowMaterials.seeds": "node ./seeds/rowMaterials.seed.js"
   },
   "author": "",
   "license": "ISC",

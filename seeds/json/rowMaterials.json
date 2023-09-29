@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Acero Negro",
+    "description": "Material de acero negro utilizado en la fabricación de productos metálicos.",
+    "price": 100.0,
+    "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+    "stock": 10,
+    "supliers": []
+  },
+  {
+    "name": "Acero Galvanizado",
+    "description": "Material de acero galvanizado utilizado en la fabricación de productos metálicos.",
+    "price": 120.0,
+    "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+    "stock": 15,
+    "supliers": []
+  },
+  {
+    "name": "Tornillos de Acero",
+    "description": "Tornillos de acero utilizados en la fijación de componentes metálicos.",
+    "price": 0.1,
+    "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+    "stock": 500,
+    "supliers": []
+  }
+]
