@@ -12,7 +12,7 @@ router.get('/rowMaterials/list', upload.single('image') , rowMaterialController.
 //getOne
 router.get('/rowMaterial/:id', rowMaterialController.getOne);
 //update
-router.put('/rowMaterial/:id', upload.single('image'), rowMaterialController.update);
+router.put('/rowMaterial/:id/edit', upload.single('image'), rowMaterialController.update);
 
 module.exports = router;
 

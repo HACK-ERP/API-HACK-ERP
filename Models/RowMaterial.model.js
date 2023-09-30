@@ -4,6 +4,7 @@ const rowMaterialSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, 'Name is required'],
+        unique: true,
         trim: true
     },
     description: {
@@ -35,7 +36,20 @@ const rowMaterialSchema = new mongoose.Schema({
             },
         },
     ],
-}, { timestamps: true });
+},
+{ timestamps: true,
+    toJSON: {
+        virtuals: true,
+        transform: (doc, ret) => {
+            ret.id = doc.id;
+            delete ret._id;
+            delete ret.__v;
+            return ret;
+        }
+    }
+}
+
+);
 
 const RowMaterial = mongoose.model('RowMaterial', rowMaterialSchema);
 
