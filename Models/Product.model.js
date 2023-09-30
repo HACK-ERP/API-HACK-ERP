@@ -38,7 +38,17 @@ const productSchema = new mongoose.Schema({
           },
         },
       ],
-}, { timestamps: true });
+}, { timestamps: true,
+    toJSON: {
+        virtuals: true,
+        transform: (doc, ret) => {
+            ret.id = doc.id;
+            delete ret._id;
+            delete ret.__v;
+            return ret;
+        }
+    }
+});
 
 const Product = mongoose.model('Product', productSchema);
 

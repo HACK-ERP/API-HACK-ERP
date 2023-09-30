@@ -44,7 +44,17 @@ const oTSchema = new mongoose.Schema({
         type: String,
         trim: true
     },
-}, { timestamps: true });
+}, { timestamps: true,
+    toJSON: {
+        virtuals: true,
+        transform: (doc, ret) => {
+            ret.id = doc.id;
+            delete ret._id;
+            delete ret.__v;
+            return ret;
+        }
+    }
+});
 
 const OT = mongoose.model('OT', oTSchema);
 
