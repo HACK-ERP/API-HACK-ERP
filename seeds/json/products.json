@@ -1,9 +1,11 @@
-[
+{
+  "productos": [
     {
-      "name": "Barra de Acero Inoxidable",
-      "description": "Barra de acero inoxidable de alta calidad, resistente a la corrosión.",
-      "price": 45.99,
-      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
+      "name": "Antena de Comunicación",
+      "description": "Antena de alta ganancia para comunicación inalámbrica.",
+      "price": 149.99,
+      "image": "URL de la imagen",
+      "materials": []
     },
     {
       "name": "Tuerca de Titanio",
@@ -46,17 +48,54 @@
       "description": "Rueda de hierro fundido resistente para carros y maquinaria industrial.",
       "price": 18.99,
       "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
+=======
+      "name": "Torre Eléctrica de Acero Galvanizado",
+      "description": "Torre eléctrica resistente de acero galvanizado.",
+      "price": 799.99,
+      "image": "URL de la imagen",
+      "materials": []
     },
     {
-      "name": "Perforadora de Metal",
-      "description": "Perforadora de metal con múltiples brocas para perforaciones precisas.",
-      "price": 59.99,
-      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
+      "name": "Estructura Metálica para Edificios",
+      "description": "Estructura metálica versátil para construcción de edificios.",
+      "price": 2499.99,
+      "image": "URL de la imagen",
+      "materials": []
     },
     {
-      "name": "Tubo de Acero al Carbono",
-      "description": "Tubo de acero al carbono para aplicaciones de tuberías y construcción.",
-      "price": 22.49,
-      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
+      "name": "Torre de Transmisión de Telecomunicaciones",
+      "description": "Torre de transmisión de señales de telecomunicaciones.",
+      "price": 999.99,
+      "image": "URL de la imagen",
+      "materials": []
+    },
+    {
+      "name": "Antena de Recepción de TV",
+      "description": "Antena de alta definición para recepción de televisión.",
+      "price": 79.99,
+      "image": "URL de la imagen",
+      "materials": []
+    },
+    {
+      "name": "Plataforma de Acero Negro",
+      "description": "Plataforma resistente fabricada en acero negro.",
+      "price": 349.99,
+      "image": "URL de la imagen",
+      "materials": []
+    },
+    {
+      "name": "Pasarela de Acero Galvanizado",
+      "description": "Pasarela duradera fabricada en acero galvanizado.",
+      "price": 199.99,
+      "image": "URL de la imagen",
+      "materials": []
+    },
+    {
+      "name": "Estructura para Soporte de Paneles Solares",
+      "description": "Estructura diseñada para soportar paneles solares.",
+      "price": 599.99,
+      "image": "URL de la imagen",
+      "materials": []
     }
-  ]
+]
+}

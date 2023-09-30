@@ -20,14 +20,12 @@ module.exports.loginMail = (req, res, next) => {
   if (!email || !password) {
     return next(loginError);
   }
-
   // Check email
   User.findOne({ email })
     .then(user => {
       if (!user) {
         return next(loginError)
       }
-
       // Check password
       return user.checkPassword(password)
         .then(match => {

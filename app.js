@@ -31,6 +31,10 @@ app.use('/hackerp', authRoutes);
 
 const routes = require('./Routes/products.routes');
 app.use('/hackerp', routes);
+const rowMaterialsRoutes = require('./Routes/rowMaterials.routes');
+app.use('/hackerp', rowMaterialsRoutes);
+const suppliersRoutes = require('./Routes/suppliers.routes');
+app.use('/hackerp', suppliersRoutes);
 
 //Middleware general de errores
 app.use((req, res, next) => {
