@@ -29,13 +29,36 @@ module.exports.detail = (req, res, next) => {
 };
 
 module.exports.delete = (req, res, next) => {
-    Product.findByIdAndDelete(req.params.id)
-        .then((product) => {
+  Product.findByIdAndDelete(req.params.id)
+    .then((product) => {
+      if (!product) {
+        throw createError(StatusCodes.NOT_FOUND, "Product not found");
+      } else {
+        res.status(StatusCodes.NO_CONTENT).json();
+      }
+    })
+    .catch((error) => next(error));
+};
+
+module.exports.update = (req, res, next) => {
+  console.log("Update request received. ID:", req.params.id);
+  console.log("Update request body:", req.body);
+  try {
+    Product.findByIdAndUpdate(req.params.id, req.body, {
+      runValidators: true,
+      new: true,
+    })
+      .then((product) => {
         if (!product) {
-            throw createError(StatusCodes.NOT_FOUND, "Product not found");
+          throw createError(StatusCodes.NOT_FOUND, "Product not found");
         } else {
-            res.status(StatusCodes.NO_CONTENT).json();
+          console.log("Product updated successfully:", product);
+          res.status(StatusCodes.OK).json(product);
         }
-        })
-        .catch((error) => next(error));
-    }
+      })
+      .catch((error) => next(error));
+  }
+  catch (error) {
+    next(error);
+  }
+}

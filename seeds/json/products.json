@@ -9,54 +9,54 @@
       "name": "Tuerca de Titanio",
       "description": "Tuerca de titanio ligera y duradera para aplicaciones industriales.",
       "price": 12.99,
-      "image": "titanium_nut.jpg"
+      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
     },
     {
       "name": "Placa de Aluminio",
       "description": "Placa de aluminio resistente para proyectos de construcción y fabricación.",
       "price": 29.99,
-      "image": "aluminum_plate.jpg"
+      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
     },
     {
       "name": "Varilla de Cobre",
       "description": "Varilla de cobre para aplicaciones eléctricas y conductividad térmica.",
       "price": 8.49,
-      "image": "copper_rod.jpg"
+      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
     },
     {
       "name": "Herramienta de Fundición",
       "description": "Herramienta de fundición de precisión para la industria metalúrgica.",
       "price": 99.99,
-      "image": "casting_tool.jpg"
+      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
     },
     {
       "name": "Alambre de Acero Galvanizado",
       "description": "Alambre de acero galvanizado para cercas y aplicaciones de seguridad.",
       "price": 15.79,
-      "image": "galvanized_wire.jpg"
+      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
     },
     {
       "name": "Lamina de Bronce",
       "description": "Lamina de bronce de alta calidad para trabajos artísticos y decorativos.",
       "price": 34.99,
-      "image": "bronze_sheet.jpg"
+      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
     },
     {
       "name": "Rueda de Hierro Fundido",
       "description": "Rueda de hierro fundido resistente para carros y maquinaria industrial.",
       "price": 18.99,
-      "image": "cast_iron_wheel.jpg"
+      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
     },
     {
       "name": "Perforadora de Metal",
       "description": "Perforadora de metal con múltiples brocas para perforaciones precisas.",
       "price": 59.99,
-      "image": "metal_drill.jpg"
+      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
     },
     {
       "name": "Tubo de Acero al Carbono",
       "description": "Tubo de acero al carbono para aplicaciones de tuberías y construcción.",
       "price": 22.49,
-      "image": "carbon_steel_pipe.jpg"
+      "image": "https://res.cloudinary.com/dinsqpato/image/upload/v1695840207/Padelhack/Hackerp/descarga_ro1hwc.jpg"
     }
   ]
