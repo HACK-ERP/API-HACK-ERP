@@ -1,4 +1,3 @@
-//supplier model
 const mongoose = require('mongoose');
 
 const supplierSchema = new mongoose.Schema({
@@ -25,6 +24,12 @@ const supplierSchema = new mongoose.Schema({
     email: {
         type: String,
         required: [true, 'Email is required'],
+        trim: true
+    },
+    logo: {
+        type: String,
+        required: [true, 'Logo is required'],
+        default: 'https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png',
         trim: true
     },
     rowMaterials: [

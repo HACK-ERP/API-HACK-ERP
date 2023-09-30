@@ -1,5 +1,3 @@
-//RowMaterials model
-
 const mongoose = require('mongoose');
 
 const rowMaterialSchema = new mongoose.Schema({

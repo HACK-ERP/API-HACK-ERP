@@ -5,6 +5,7 @@
     "address": "Dirección 1",
     "phone": 1234567890,
     "email": "proveedor1@example.com",
+    "logo":"http/logo",
     "rowMaterials": []
   },
   {
@@ -13,6 +14,7 @@
     "address": "Dirección 2",
     "phone": 9876543210,
     "email": "proveedor2@example.com",
+    "logo":"http/logo",
     "rowMaterials": []
   },
   {
@@ -21,6 +23,7 @@
     "address": "Dirección 3",
     "phone": 5555555555,
     "email": "proveedor3@example.com",
+    "logo":"http/logo",
     "rowMaterials": []
   },
   {
@@ -29,6 +32,7 @@
     "address": "Dirección 4",
     "phone": 1111111111,
     "email": "proveedor4@example.com",
+    "logo":"http/logo",
     "rowMaterials": []
   },
   {
@@ -37,6 +41,7 @@
     "address": "Dirección 5",
     "phone": 2222222222,
     "email": "proveedor5@example.com",
+    "logo":"http/logo",
     "rowMaterials": []
   },
   {
@@ -45,6 +50,7 @@
     "address": "Dirección 6",
     "phone": 3333333333,
     "email": "proveedor6@example.com",
+    "logo":"http/logo",
     "rowMaterials": []
   },
   {
@@ -53,6 +59,7 @@
     "address": "Dirección 7",
     "phone": 4444444444,
     "email": "proveedor7@example.com",
+    "logo":"http/logo",
     "rowMaterials": []
   },
   {
@@ -61,6 +68,7 @@
     "address": "Dirección 8",
     "phone": 5555555555,
     "email": "proveedor8@example.com",
+    "logo":"http/logo",
     "rowMaterials": []
   },
   {
@@ -69,6 +77,7 @@
     "address": "Dirección 9",
     "phone": 6666666666,
     "email": "proveedor9@example.com",
+    "logo":"http/logo",
     "rowMaterials": []
   },
   {
@@ -77,6 +86,7 @@
     "address": "Dirección 10",
     "phone": 7777777777,
     "email": "proveedor10@example.com",
+    "logo":"http/logo",
     "rowMaterials": []
   }
 ]
