@@ -20,6 +20,7 @@ module.exports.list = (req, res, next) => {
 
 module.exports.detail = (req, res, next) => {
   Product.findById(req.params.id)
+    .populate('materials.material_id')
     .then((product) => {
       if (!product) {
         throw createError(StatusCodes.NOT_FOUND, "Product not found");
