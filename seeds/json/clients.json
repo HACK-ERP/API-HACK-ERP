@@ -1,0 +1,102 @@
+[
+    {
+        "NIF": "12345678A",
+        "RS": "Metalurgia ABC",
+        "Address": "Calle Metalurgia, 123",
+        "Phone": "987-654-321",
+        "Email": "info@metalurgiaabc.com",
+        "ContactPerson": "Juan Pérez",
+        "Comments": "Cliente principal en el sector de metalurgia",
+        "logo": "https://cdn-icons-png.flaticon.com/512/5672/5672233.png"
+    },
+    {
+        "NIF": "87654321B",
+        "RS": "Metalúrgica XYZ",
+        "Address": "Avenida de la Fundición, 45",
+        "Phone": "555-123-456",
+        "Email": "contacto@metalurgicaxyz.com",
+        "ContactPerson": "María González",
+        "Comments": "Especializados en fundición de metales",
+        "logo": "https://cdn-icons-png.flaticon.com/512/1814/1814420.png"
+    },
+    {
+        "NIF": "56789012C",
+        "RS": "Metales Industriales SA",
+        "Address": "Plaza de la Metalurgia, 6",
+        "Phone": "789-456-123",
+        "Email": "info@metalesindustriales.com",
+        "ContactPerson": "Carlos Rodríguez",
+        "Comments": "Proveedor de metales para la industria",
+        "logo": "https://cdn-icons-png.flaticon.com/512/7263/7263634.png"
+    },
+    {
+        "NIF": "34567890D",
+        "RS": "Metalformas y Forja",
+        "Address": "Calle Forjadores, 78",
+        "Phone": "234-567-890",
+        "Email": "contacto@metalformasyforja.com",
+        "ContactPerson": "Laura Smith",
+        "Comments": "Especializados en forja de metales",
+        "logo": "https://cdn.icon-icons.com/icons2/390/PNG/512/metal-bar_38206.png"
+    },
+    {
+        "NIF": "98765432E",
+        "RS": "MetalTech Solutions",
+        "Address": "Avenida de la Metalurgia, 12",
+        "Phone": "876-543-210",
+        "Email": "info@metaltechsolutions.com",
+        "ContactPerson": "Michael Johnson",
+        "Comments": "Soluciones tecnológicas para la metalurgia",
+        "logo": "https://cdn-icons-png.flaticon.com/512/2534/2534277.png"
+    },
+    {
+        "NIF": "65432109F",
+        "RS": "MetalCrafters",
+        "Address": "Calle Metalcraft, 34",
+        "Phone": "123-456-789",
+        "Email": "contacto@metalcrafters.com",
+        "ContactPerson": "Emily Davis",
+        "Comments": "Artesanía en metales",
+        "logo": "https://cdn.icon-icons.com/icons2/2596/PNG/512/heavy_metal_gold_icon_155280.png"
+    },
+    {
+        "NIF": "23456781G",
+        "RS": "Metales del Sur",
+        "Address": "Avenida del Metal, 56",
+        "Phone": "345-678-901",
+        "Email": "info@metalesdelsur.com",
+        "ContactPerson": "Antonio López",
+        "Comments": "Proveedores de metales del sur de España",
+        "logo": "https://cdn-icons-png.flaticon.com/512/5313/5313628.png"
+    },
+    {
+        "NIF": "78901234H",
+        "RS": "MetalMáquinas",
+        "Address": "Calle de las Máquinas, 89",
+        "Phone": "456-789-012",
+        "Email": "contacto@metalmáquinas.com",
+        "ContactPerson": "Isabel Martínez",
+        "Comments": "Venta de maquinaria para metalurgia",
+        "logo": "https://cdn-icons-png.flaticon.com/512/78/78740.png"
+    },
+    {
+        "NIF": "45678901I",
+        "RS": "Metales Innovadores",
+        "Address": "Plaza de la Innovación, 23",
+        "Phone": "567-890-123",
+        "Email": "info@metalesinnovadores.com",
+        "ContactPerson": "Roberto Fernández",
+        "Comments": "Innovación en la metalurgia",
+        "logo": "https://cdn-icons-png.flaticon.com/512/6842/6842581.png"
+    },
+    {
+        "NIF": "89012345J",
+        "RS": "MetalSuministros",
+        "Address": "Avenida de los Suministros, 67",
+        "Phone": "678-901-234",
+        "Email": "contacto@metalsuministros.com",
+        "ContactPerson": "Ana García",
+        "Comments": "Suministros para la industria metalúrgica",
+        "logo": "https://cdn-icons-png.flaticon.com/512/1610/1610605.png"
+    }
+]
