@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+const otStatus = ['PENDING', 'PRODUCTION', 'DONE'];
+
 const oTSchema = new mongoose.Schema({
     code: {
         type: String,
@@ -28,17 +30,12 @@ const oTSchema = new mongoose.Schema({
     ],  
     status: {
         type: String,
-        enum: ['PENDING', 'PRODUCTION', 'DONE'],
+        enum: [otStatus],
         default: 'PENDING'
     },
     deliveryDate: {
         type: Date,
         required: [true, 'Delivery Date is required'],
-    },
-    deliveryAddress: {
-        type: String,
-        required: [true, 'Delivery Address is required'],
-        trim: true
     },
     comments: {
         type: String,
