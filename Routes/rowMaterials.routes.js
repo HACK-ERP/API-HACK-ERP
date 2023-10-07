@@ -5,6 +5,7 @@ const upload = require('../Config/cloudinary.config');
 const rowMaterialController = require('../Controllers/rowMaterials.controller');
 const authMiddleware = require('../Middlewares/auth.middleware');
 
+
 //create
 router.post('/rowMaterial/create', upload.single('image'), rowMaterialController.create);
 //list
@@ -14,6 +15,7 @@ router.get('/rowMaterial/:id', rowMaterialController.getOne);
 //update
 router.put('/rowMaterial/:id/edit', upload.single('image'), rowMaterialController.update);
 
+console.log("entra en rowMaterial.routes")
 module.exports = router;
 
 
