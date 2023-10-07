@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-const oTSchema = new mongoose.Schema({
-    code: {
+const budgetSchema = new mongoose.Schema({
+    budgetNumber: {
         type: String,
-        required: [true, 'Code is required'],
+        required: [true, 'Budget Number is required'],
         unique: true,
         trim: true
     },
@@ -25,11 +25,11 @@ const oTSchema = new mongoose.Schema({
                 min: 1,
             },
         },
-    ],  
+    ],
     status: {
         type: String,
-        enum: ['Pendiente', 'En Proceso', 'Entregado'],
-        default: 'Pendiente'
+        enum: ['Enviado', 'Aceptado', 'Rechazado'],
+        default: 'Enviado'
     },
     deliveryDate: {
         type: Date,
@@ -51,7 +51,6 @@ const oTSchema = new mongoose.Schema({
     }
 });
 
-const OT = mongoose.model('OT', oTSchema);
+const Budget = mongoose.model('Budget', budgetSchema);
 
-module.exports = OT;
-
+module.exports = Budget;
