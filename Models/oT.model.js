@@ -9,38 +9,16 @@ const oTSchema = new mongoose.Schema({
         unique: true,
         trim: true
     },
-    client: {
+    budget: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'Client',
-        required: [true, 'Client ID is required'],
+        ref: 'Budget',
+        required: [true, 'Budget ID is required'],
     },
-    products: [
-        {
-            product_id: {
-                type: mongoose.Schema.Types.ObjectId,
-                ref: 'Product',
-                required: [true, 'Product ID is required'],
-            },
-            quantity: {
-                type: Number,
-                required: [true, 'Quantity is required'],
-                min: 1,
-            },
-        },
-    ],  
     status: {
         type: String,
         enum: otStatus,
         default: 'Pendiente'
-    },
-    deliveryDate: {
-        type: Date,
-        required: [true, 'Delivery Date is required'],
-    },
-    comments: {
-        type: String,
-        trim: true
-    },
+    }
 }, { timestamps: true,
     collection: 'OT',
     toJSON: {

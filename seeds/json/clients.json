@@ -7,7 +7,8 @@
         "Email": "info@metalurgiaabc.com",
         "ContactPerson": "Juan Pérez",
         "Comments": "Cliente principal en el sector de metalurgia",
-        "logo": "https://cdn-icons-png.flaticon.com/512/5672/5672233.png"
+        "logo": "https://cdn-icons-png.flaticon.com/512/5672/5672233.png",
+        "id": "65213e75adcbf6c466e94803"
     },
     {
         "NIF": "87654321B",
@@ -17,7 +18,8 @@
         "Email": "contacto@metalurgicaxyz.com",
         "ContactPerson": "María González",
         "Comments": "Especializados en fundición de metales",
-        "logo": "https://cdn-icons-png.flaticon.com/512/1814/1814420.png"
+        "logo": "https://cdn-icons-png.flaticon.com/512/1814/1814420.png",
+        "id": "65213e75adcbf6c466e94804"
     },
     {
         "NIF": "56789012C",
@@ -27,7 +29,8 @@
         "Email": "info@metalesindustriales.com",
         "ContactPerson": "Carlos Rodríguez",
         "Comments": "Proveedor de metales para la industria",
-        "logo": "https://cdn-icons-png.flaticon.com/512/7263/7263634.png"
+        "logo": "https://cdn-icons-png.flaticon.com/512/7263/7263634.png",
+        "id": "65213e75adcbf6c466e94805"
     },
     {
         "NIF": "34567890D",
@@ -37,7 +40,8 @@
         "Email": "contacto@metalformasyforja.com",
         "ContactPerson": "Laura Smith",
         "Comments": "Especializados en forja de metales",
-        "logo": "https://cdn.icon-icons.com/icons2/390/PNG/512/metal-bar_38206.png"
+        "logo": "https://cdn.icon-icons.com/icons2/390/PNG/512/metal-bar_38206.png",
+        "id": "65213e75adcbf6c466e94806"
     },
     {
         "NIF": "98765432E",
@@ -47,7 +51,8 @@
         "Email": "info@metaltechsolutions.com",
         "ContactPerson": "Michael Johnson",
         "Comments": "Soluciones tecnológicas para la metalurgia",
-        "logo": "https://cdn-icons-png.flaticon.com/512/2534/2534277.png"
+        "logo": "https://cdn-icons-png.flaticon.com/512/2534/2534277.png",
+        "id": "65213e75adcbf6c466e94807"
     },
     {
         "NIF": "65432109F",
@@ -57,7 +62,8 @@
         "Email": "contacto@metalcrafters.com",
         "ContactPerson": "Emily Davis",
         "Comments": "Artesanía en metales",
-        "logo": "https://cdn.icon-icons.com/icons2/2596/PNG/512/heavy_metal_gold_icon_155280.png"
+        "logo": "https://cdn.icon-icons.com/icons2/2596/PNG/512/heavy_metal_gold_icon_155280.png",
+        "id": "65213e75adcbf6c466e94808"
     },
     {
         "NIF": "23456781G",
@@ -67,7 +73,8 @@
         "Email": "info@metalesdelsur.com",
         "ContactPerson": "Antonio López",
         "Comments": "Proveedores de metales del sur de España",
-        "logo": "https://cdn-icons-png.flaticon.com/512/5313/5313628.png"
+        "logo": "https://cdn-icons-png.flaticon.com/512/5313/5313628.png",
+        "id": "65213e75adcbf6c466e94809"
     },
     {
         "NIF": "78901234H",
@@ -77,7 +84,8 @@
         "Email": "contacto@metalmáquinas.com",
         "ContactPerson": "Isabel Martínez",
         "Comments": "Venta de maquinaria para metalurgia",
-        "logo": "https://cdn-icons-png.flaticon.com/512/78/78740.png"
+        "logo": "https://cdn-icons-png.flaticon.com/512/78/78740.png",
+        "id": "65213e75adcbf6c466e9480a"
     },
     {
         "NIF": "45678901I",
@@ -87,7 +95,8 @@
         "Email": "info@metalesinnovadores.com",
         "ContactPerson": "Roberto Fernández",
         "Comments": "Innovación en la metalurgia",
-        "logo": "https://cdn-icons-png.flaticon.com/512/6842/6842581.png"
+        "logo": "https://cdn-icons-png.flaticon.com/512/6842/6842581.png",
+        "id": "65213e75adcbf6c466e9480b"
     },
     {
         "NIF": "89012345J",
@@ -97,6 +106,7 @@
         "Email": "contacto@metalsuministros.com",
         "ContactPerson": "Ana García",
         "Comments": "Suministros para la industria metalúrgica",
-        "logo": "https://cdn-icons-png.flaticon.com/512/1610/1610605.png"
+        "logo": "https://cdn-icons-png.flaticon.com/512/1610/1610605.png",
+        "id": "65213e75adcbf6c466e9480c"
     }
 ]

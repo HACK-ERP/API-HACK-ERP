@@ -1,796 +1,252 @@
 [
     {
         "code": "OT2023001",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b5",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-09-10T12:00:00Z",
-        "comments": "Urgente, por favor entregar lo antes posible."
+        "budget": "6521520d2078fc7d0c175d25",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023002",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b6",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 5
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-09-15T14:00:00Z",
-        "comments": "Favor confirmar la disponibilidad de materiales."
+        "budget": "6521520d2078fc7d0c175d2d",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023003",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b7",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-09-20T10:30:00Z",
-        "comments": "Necesitamos calidad premium en la pintura."
+        "budget": "6521520d2078fc7d0c175d30",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023004",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b8",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-09-25T11:45:00Z",
-        "comments": "Enviar factura proforma antes del envío."
+        "budget": "6521520d2078fc7d0c175d33",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023005",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b9",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 1
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 4
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-09-30T16:15:00Z",
-        "comments": "Por favor, empaquetar los productos de forma segura."
+        "budget": "6521520d2078fc7d0c175d35",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023006",
-        "client": "5f9d88b9c4e1c1b3e4f0e1ba",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-10-05T09:30:00Z",
-        "comments": "Requiere inspección de calidad antes del envío."
+        "budget": "6521520d2078fc7d0c175d38",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023007",
-        "client": "5f9d88b9c4e1c1b3e4f0e1bb",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-10-10T13:45:00Z",
-        "comments": "Entregar en la dirección de la sucursal."
+        "budget": "6521520d2078fc7d0c175d3a",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023008",
-        "client": "5f9d88b9c4e1c1b3e4f0e1bc",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-10-15T17:00:00Z",
-        "comments": "Entregar en la dirección de la sucursal."
+        "budget": "6521520d2078fc7d0c175d3d",
+        "status": "Pendiente"
     },
     {
         "code": "OT20230909",
-        "client": "5f9d88b9c4e1c1b3e4f0e1d4",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 5
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-09-20",
-        "comments": "Cliente solicita entrega rápida."
+        "budget": "6521520d2078fc7d0c175d40",
+        "status": "Pendiente"
     },
     {
         "code": "OT20230910",
-        "client": "5f9d88b9c4e1c1b3e4f0e1d3",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-09-22",
-        "comments": "Cliente requiere entrega segura."
+        "budget": "6521520d2078fc7d0c175d43",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023011",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b1",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-01-05T15:30:00Z",
-        "comments": "Entrega urgente requerida."
+        "budget": "6521520d2078fc7d0c175d46",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023012",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b2",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 4
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 3
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-01-10T14:00:00Z",
-        "comments": "Por favor, confirme la disponibilidad de productos."
+        "budget": "6521520d2078fc7d0c175d49",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023013",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b3",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-01-15T16:45:00Z",
-        "comments": "Requiere facturación anticipada."
+        "budget": "6521520d2078fc7d0c175d28",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023014",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b4",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-01-20T12:30:00Z",
-        "comments": "Necesita calidad premium en la pintura."
+        "budget": "6521520d2078fc7d0c175d2a",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023015",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b5",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-01-25T11:00:00Z",
-        "comments": "Entregar productos de forma segura."
+        "budget": "6521520d2078fc7d0c175d52",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023021",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b6",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 3
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-02-05T13:15:00Z",
-        "comments": "Entrega urgente requerida."
+        "budget": "6521520d2078fc7d0c175d55",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023022",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b7",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 4
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-02-10T14:30:00Z",
-        "comments": "Por favor, confirme la disponibilidad de productos."
+        "budget": "6521520d2078fc7d0c175d58",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023023",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b8",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-02-15T17:45:00Z",
-        "comments": "Requiere facturación anticipada."
+        "budget": "6521520d2078fc7d0c175d5b",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023024",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b9",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-02-20T12:00:00Z",
-        "comments": "Necesita calidad premium en la pintura."
+        "budget": "6521520d2078fc7d0c175d5e",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023025",
-        "client": "5f9d88b9c4e1c1b3e4f0e1ba",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 1
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 4
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-02-25T10:30:00Z",
-        "comments": "Entregar productos de forma segura."
+        "budget": "6521520d2078fc7d0c175d61",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023031",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b6",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-03-05T14:15:00Z",
-        "comments": "Cliente solicita entrega rápida."
+        "budget": "6521520d2078fc7d0c175d64",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023032",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b7",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 5
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-03-10T11:30:00Z",
-        "comments": "Entrega en la dirección de la sucursal."
+        "budget": "6521520d2078fc7d0c175d66",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023033",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b8",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 4
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-03-15T16:45:00Z",
-        "comments": "Por favor, enviar factura proforma antes del envío."
+        "budget": "6521520d2078fc7d0c175d4c",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023034",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b9",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-03-20T12:30:00Z",
-        "comments": "Necesitamos calidad premium en los productos."
+        "budget": "6521520d2078fc7d0c175d4f",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023035",
-        "client": "5f9d88b9c4e1c1b3e4f0e1ba",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 3
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-03-25T10:00:00Z",
-        "comments": "Por favor, realizar inspección de calidad antes del envío."
+        "budget": "6521520d2078fc7d0c175d6f",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023041",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b6",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-04-05T14:15:00Z",
-        "comments": "Cliente solicita entrega rápida."
+        "budget": "6521520d2078fc7d0c175d72",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023042",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b7",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 5
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-04-10T11:30:00Z",
-        "comments": "Entrega en la dirección de la sucursal."
+        "budget": "6521520d2078fc7d0c175d74",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023043",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b8",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 4
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-04-15T16:45:00Z",
-        "comments": "Por favor, enviar factura proforma antes del envío."
+        "budget": "6521520d2078fc7d0c175d77",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023044",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b9",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-04-20T12:30:00Z",
-        "comments": "Necesitamos calidad premium en los productos."
+        "budget": "6521520d2078fc7d0c175d7a",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023045",
-        "client": "5f9d88b9c4e1c1b3e4f0e1ba",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 3
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-04-25T10:00:00Z",
-        "comments": "Por favor, realizar inspección de calidad antes del envío."
+        "budget": "6521520d2078fc7d0c175d7d",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023051",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b6",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-05-05T14:15:00Z",
-        "comments": "Cliente solicita entrega rápida."
+        "budget": "6521520d2078fc7d0c175d80",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023052",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b7",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 5
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-05-10T11:30:00Z",
-        "comments": "Entrega en la dirección de la sucursal."
+        "budget": "6521520d2078fc7d0c175d82",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023053",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b8",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 4
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-05-15T16:45:00Z",
-        "comments": "Por favor, enviar factura proforma antes del envío."
+        "budget": "6521520d2078fc7d0c175d85",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023054",
-        "client": "5f9d88b9c4e1c1b3e4f0e1b9",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-05-20T12:30:00Z",
-        "comments": "Necesitamos calidad premium en los productos."
+        "budget": "6521520d2078fc7d0c175d88",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023055",
-        "client": "5f9d88b9c4e1c1b3e4f0e1ba",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 3
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-05-25T10:00:00Z",
-        "comments": "Por favor, realizar inspección de calidad antes del envío."
+        "budget": "6521520d2078fc7d0c175d8b",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023061",
-        "client": "5f9d88b9c4e1c1b3e4f0e1bb",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-06-05T14:45:00Z",
-        "comments": "Cliente requiere entrega segura."
+        "budget": "6521520d2078fc7d0c175d8d",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023062",
-        "client": "5f9d88b9c4e1c1b3e4f0e1bc",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 5
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-06-10T16:00:00Z",
-        "comments": "Cliente solicita entrega rápida."
+        "budget": "6521520d2078fc7d0c175d90",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023063",
-        "client": "5f9d88b9c4e1c1b3e4f0e1bd",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-06-15T11:15:00Z",
-        "comments": "Por favor, entregar en la dirección de la sucursal."
+        "budget": "6521520d2078fc7d0c175d92",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023064",
-        "client": "5f9d88b9c4e1c1b3e4f0e1be",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-06-20T09:30:00Z",
-        "comments": "Requiere inspección de calidad antes del envío."
+        "budget": "6521520d2078fc7d0c175d69",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023065",
-        "client": "5f9d88b9c4e1c1b3e4f0e1bf",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-06-25T13:00:00Z",
-        "comments": "Por favor, empaquetar los productos de forma segura."
+        "budget": "6521520d2078fc7d0c175d6c",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023071",
-        "client": "5f9d88b9c4e1c1b3e4f0e1c0",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-                "quantity": 4
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-07-05T14:30:00Z",
-        "comments": "Cliente requiere entrega urgente."
+        "budget": "6521520d2078fc7d0c175d9a",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023072",
-        "client": "5f9d88b9c4e1c1b3e4f0e1c1",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-07-10T12:15:00Z",
-        "comments": "Por favor, confirmar disponibilidad de productos."
+        "budget": "6521520d2078fc7d0c175d9d",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023073",
-        "client": "5f9d88b9c4e1c1b3e4f0e1c2",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-07-15T16:45:00Z",
-        "comments": "Entregar en la dirección principal."
+        "budget": "6521520d2078fc7d0c175d9f",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023074",
-        "client": "5f9d88b9c4e1c1b3e4f0e1c3",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 4
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-07-20T11:00:00Z",
-        "comments": "Cliente solicita entrega rápida."
+        "budget": "6521520d2078fc7d0c175da1",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023075",
-        "client": "5f9d88b9c4e1c1b3e4f0e1c4",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-07-25T13:30:00Z",
-        "comments": "Cliente requiere calidad premium."
+        "budget": "6521520d2078fc7d0c175da4",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023081",
-        "client": "5f9d88b9c4e1c1b3e4f0e1c5",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-                "quantity": 3
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-08-05T10:45:00Z",
-        "comments": "Necesitamos estos productos con urgencia."
+        "budget": "6521520d2078fc7d0c175da6",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023082",
-        "client": "5f9d88b9c4e1c1b3e4f0e1c6",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-                "quantity": 5
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-08-10T14:00:00Z",
-        "comments": "Cliente requiere entrega en la sucursal."
+        "budget": "6521520d2078fc7d0c175da9",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023083",
-        "client": "5f9d88b9c4e1c1b3e4f0e1c7",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-                "quantity": 2
-            },
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-                "quantity": 2
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-08-15T12:30:00Z",
-        "comments": "Por favor, confirmar disponibilidad de productos."
+        "budget": "6521520d2078fc7d0c175dab",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023084",
-        "client": "5f9d88b9c4e1c1b3e4f0e1c8",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-                "quantity": 3
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-08-20T15:15:00Z",
-        "comments": "Cliente requiere calidad premium."
+        "budget": "6521520d2078fc7d0c175d95",
+        "status": "Pendiente"
     },
     {
         "code": "OT2023085",
-        "client": "5f9d88b9c4e1c1b3e4f0e1c9",
-        "products": [
-            {
-                "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-                "quantity": 1
-            }
-        ],
-        "status": "Pendiente",
-        "deliveryDate": "2023-08-25T11:30:00Z",
-        "comments": "Cliente solicita entrega rápida."
+        "budget": "6521520d2078fc7d0c175d97",
+        "status": "Pendiente"
     }
 ]

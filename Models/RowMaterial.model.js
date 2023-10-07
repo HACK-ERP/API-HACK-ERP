@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 const rowMaterialSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -14,7 +13,6 @@ const rowMaterialSchema = new mongoose.Schema({
     },
     price: {
         type: Number,
-        required: [true, 'Price is required'],
         trim: true
     },
     image: {
@@ -23,7 +21,6 @@ const rowMaterialSchema = new mongoose.Schema({
     },
     stock: {
         type: Number,
-        required: [true, 'Stock is required'],
         deffault: 0,
         trim: true
     },
@@ -32,7 +29,6 @@ const rowMaterialSchema = new mongoose.Schema({
             supplier_id: {
                 type: mongoose.Schema.Types.ObjectId,
                 ref: 'Supplier',
-                required: [true, 'Suplier ID is required'],
             },
         },
     ],
@@ -48,9 +44,6 @@ const rowMaterialSchema = new mongoose.Schema({
         }
     }
 }
-
 );
-
 const RowMaterial = mongoose.model('RowMaterial', rowMaterialSchema);
-
 module.exports = RowMaterial;

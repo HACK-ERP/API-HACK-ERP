@@ -12,7 +12,8 @@
     "suppliers.seeds": "node ./seeds/suppliers.seed.js",
     "rowMaterials.seeds": "node ./seeds/rowMaterials.seed.js",
     "oT.seeds": "node ./seeds/ot.seed.js",
-    "clients.seeds": "node ./seeds/clients.seed.js"
+    "clients.seeds": "node ./seeds/clients.seed.js",
+    "budgets.seeds": "node ./seeds/budgets.seed.js"
   },
   "author": "",
   "license": "ISC",  
