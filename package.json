@@ -11,7 +11,8 @@
     "products.seeds": "node ./seeds/products.seed.js",
     "suppliers.seeds": "node ./seeds/suppliers.seed.js",
     "rowMaterials.seeds": "node ./seeds/rowMaterials.seed.js",
-    "oT.seeds": "node ./seeds/ot.seed.js"
+    "oT.seeds": "node ./seeds/ot.seed.js",
+    "clients.seeds": "node ./seeds/clients.seed.js"
   },
   "author": "",
   "license": "ISC",  

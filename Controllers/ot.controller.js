@@ -1,5 +1,5 @@
 const createError = require('http-errors');
-const OT = require('../Models/Ot.model');
+const OT = require('../Models/oT.model');
 const { StatusCodes } = require('http-status-codes'); 
 
 module.exports.create = (req, res, next) => {
