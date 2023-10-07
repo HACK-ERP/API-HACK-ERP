@@ -30,8 +30,8 @@ const oTSchema = new mongoose.Schema({
     ],  
     status: {
         type: String,
-        enum: [otStatus],
-        default: 'PENDING'
+        enum: otStatus,
+        default: 'Pendiente'
     },
     deliveryDate: {
         type: Date,
@@ -42,6 +42,7 @@ const oTSchema = new mongoose.Schema({
         trim: true
     },
 }, { timestamps: true,
+    collection: 'OT',
     toJSON: {
         virtuals: true,
         transform: (doc, ret) => {

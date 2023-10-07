@@ -15,7 +15,6 @@ router.get('/rowMaterial/:id', rowMaterialController.getOne);
 //update
 router.put('/rowMaterial/:id/edit', upload.single('image'), rowMaterialController.update);
 
-console.log("entra en rowMaterial.routes")
 module.exports = router;
 
 
