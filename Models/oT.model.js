@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+const otStatus = ['Pendiente', 'En Proceso', 'Entregado'];
+
 const oTSchema = new mongoose.Schema({
     code: {
         type: String,
@@ -28,8 +30,8 @@ const oTSchema = new mongoose.Schema({
     ],  
     status: {
         type: String,
-        enum: ['Pendiente', 'En Proceso', 'Entregado'],
-        default: 'Pendiente'
+        enum: [otStatus],
+        default: 'PENDING'
     },
     deliveryDate: {
         type: Date,
