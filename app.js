@@ -35,6 +35,10 @@ const rowMaterialsRoutes = require('./Routes/rowMaterials.routes');
 app.use('/hackerp', rowMaterialsRoutes);
 const suppliersRoutes = require('./Routes/suppliers.routes');
 app.use('/hackerp', suppliersRoutes);
+const otRoutes = require('./Routes/ot.routes');
+app.use('/hackerp', otRoutes);
+const clientsRoutes = require('./Routes/clients.routes');
+app.use('/hackerp', clientsRoutes);
 
 //Middleware general de errores
 app.use((req, res, next) => {
