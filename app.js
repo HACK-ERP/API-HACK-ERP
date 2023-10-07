@@ -31,19 +31,23 @@ app.get("/", (req, res) => {
 const authRoutes = require("./Routes/users.routes");
 app.use("/hackerp", authRoutes);
 
-const routes = require("./Routes/products.routes");
-app.use("/hackerp", routes);
-const rowMaterialsRoutes = require("./Routes/rowMaterials.routes");
-app.use("/hackerp", rowMaterialsRoutes);
-const suppliersRoutes = require("./Routes/suppliers.routes");
-app.use("/hackerp", suppliersRoutes);
-const otRoutes = require("./Routes/ot.routes");
-app.use("/hackerp", otRoutes);
-const clientsRoutes = require("./Routes/clients.routes");
-app.use("/hackerp", clientsRoutes);
+const routes = require('./Routes/products.routes');
+app.use('/hackerp', routes);
+const rowMaterialsRoutes = require('./Routes/rowMaterials.routes');
+app.use('/hackerp', rowMaterialsRoutes);
+const suppliersRoutes = require('./Routes/suppliers.routes');
+app.use('/hackerp', suppliersRoutes);
+const otRoutes = require('./Routes/ot.routes');
+app.use('/hackerp', otRoutes);
+const clientsRoutes = require('./Routes/clients.routes');
+app.use('/hackerp', clientsRoutes);
+const budgetRoutes = require('./Routes/budget.routes');
+app.use('/hackerp', budgetRoutes);
 
+//listen
 //Middleware general de errores
 app.use((req, res, next) => {
+
   next(createError(StatusCodes.NOT_FOUND, "Route not found"));
 });
 
@@ -78,6 +82,7 @@ app.use((error, req, res, next) => {
   res.status(error.status).json(data);
 });
 //listen
+
 
 const port = process.env.PORT || 3001;
 
