@@ -3,6 +3,7 @@ const Product = require("../Models/Product.model");
 const { StatusCodes } = require("http-status-codes");
 
 module.exports.create = (req, res, next) => {
+  console.log("Create request received. Body:", req.body);
   const product = new Product(req.body);
   product
     .save()
@@ -12,6 +13,7 @@ module.exports.create = (req, res, next) => {
 
 module.exports.list = (req, res, next) => {
   Product.find()
+    .populate('materials.material_id')
     .then((products) => res.status(StatusCodes.OK).json(products))
     .catch((error) => next(error));
 };

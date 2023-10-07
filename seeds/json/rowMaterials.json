@@ -1,26 +1,194 @@
 [
   {
-    "name": "Acero Negro",
+    "_id": "5f9d88b9c4e1c1b3e4f0e1c0",
+    "name": "Tuberia de Acero Negro",
     "description": "Material de acero negro utilizado en la fabricación de productos metálicos.",
     "price": 100.0,
-    "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+    "image": "https://tubefittingseu.b-cdn.net/25063-large_default/stalowa-rura-czarna-o-213-mm-x-22-mm.jpg",
     "stock": 10,
-    "supliers": []
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1ba" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b9" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b3" }
+    ]
   },
   {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1c1",
     "name": "Acero Galvanizado",
     "description": "Material de acero galvanizado utilizado en la fabricación de productos metálicos.",
     "price": 120.0,
-    "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+    "image": "https://reiproacero.ec/m/wp-content/uploads/2020/12/PLANCHA-ANTIDESLIZANTE-DESCRIPCION.jpg",
     "stock": 15,
-    "supliers": []
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b1" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b2" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b4" }
+    ]
   },
   {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1c2",
     "name": "Tornillos de Acero",
     "description": "Tornillos de acero utilizados en la fijación de componentes metálicos.",
     "price": 0.1,
-    "image": "https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png",
+    "image": "https://m.media-amazon.com/images/I/71GHK6DxSLL.jpg",
     "stock": 500,
-    "supliers": []
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1bd" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1bc" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1c3",
+    "name": "Viga H 10x10",
+    "description": "Viga H de 10x10 utilizada en la fabricación de productos metálicos.",
+    "price": 100.0,
+    "image": "https://s.alicdn.com/@sc04/kf/Hd349714930dc4321bd45497902098198R.png_200x200.jpg",
+    "stock": 10,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b1" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b2" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1c4",
+    "name": "Viga H 10x15",
+    "description": "Viga H de 10x15 utilizada en la fabricación de productos metálicos.",
+    "price": 100.0,
+    "image": "https://s.alicdn.com/@sc04/kf/Hd349714930dc4321bd45497902098198R.png_200x200.jpg",
+    "stock": 10,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b1" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b3" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1c5",
+    "name": "Viga H 10x20",
+    "description": "Viga H de 10x20 utilizada en la fabricación de productos metálicos.",
+    "price": 100.0,
+    "image": "https://s.alicdn.com/@sc04/kf/Hd349714930dc4321bd45497902098198R.png_200x200.jpg",
+    "stock": 10,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1ba" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b3" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1c6",
+    "name": "varilla de Acero Negro",
+    "description": "Material de acero negro utilizado en la fabricación de productos metálicos.",
+    "price": 100.0,
+    "image": "https://assets.bricodepot.es/image/upload/t_pdp_tablet/content/asset_images/3232630202005_21c_BI",
+    "stock": 10,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1ba" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b9" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b3" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1c7",
+    "name": "Platinas de Acero Galvanizado",
+    "description": "Material de acero galvanizado utilizado en la fabricación de productos metálicos.",
+    "price": 120.0,
+    "image": "https://media.adeo.com/marketplace/LMES/80110513/2101570.png?width=650&height=650&format=jpg&quality=80&fit=bounds",
+    "stock": 15,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b1" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b2" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b4" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1c8",
+    "name": "Tuercas de acero Galvanizado",
+    "description": "Tornillos de acero utilizados en la fijación de componentes metálicos.",
+    "price": 0.1,
+    "image": "https://www.rationalstock.es/img_rational/img/catalog/cataleg350/TO-34M6-C.jpg",
+    "stock": 500,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1bd" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1bc" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1c9",
+    "name": "Soldadura tubular 1/8",
+    "description": "Soldadura utilizada en la unión de componentes metálicos.",
+    "price": 0.5,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_766254-MLC40903351720_022020-O.webp",
+    "stock": 100,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b7" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1ca",
+    "name": "Pintura Negra Epóxica",
+    "description": "Pintura negra utilizada en la fabricación de productos metálicos.",
+    "price": 50.0,
+    "image": "https://www.epodex.com/es/wp-content/uploads/2022/03/pintura-para-metal-schwarz-weiss.jpg",
+    "stock": 10,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b8" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1d0",
+    "name": "Pintura Blanca Epóxica",
+    "description": "Pintura blanca utilizada en la fabricación de productos metálicos.",
+    "price": 50.0,
+    "image": "https://www.epodex.com/es/wp-content/uploads/2021/12/54a_epoxidharz-farbstoff-weiss.jpg",
+    "stock": 10,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b8" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1d1",
+    "name": "Pintura Roja de Acabado",
+    "description": "Pintura roja utilizada en la fabricación de productos metálicos.",
+    "price": 50.0,
+    "image": "https://www.epodex.com/es/wp-content/uploads/2022/03/pintura-para-metal-rot.jpg",
+    "stock": 10,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b8" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1d2",
+    "name": "Viga H 15x15",
+    "description": "Viga H de 15x15 utilizada en la fabricación de productos metálicos.",
+    "price": 100.0,
+    "image": "https://s.alicdn.com/@sc04/kf/Hd349714930dc4321bd45497902098198R.png_200x200.jpg",
+    "stock": 10,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b1" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b2" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1be",
+    "name": "Viga H 20x25",
+    "description": "Viga H de 20x25 utilizada en la fabricación de productos metálicos.",
+    "price": 100.0,
+    "image": "https://s.alicdn.com/@sc04/kf/Hd349714930dc4321bd45497902098198R.png_200x200.jpg",
+    "stock": 10,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b1" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b3" }
+    ]
+  },
+  {
+    "_id": "5f9d88b9c4e1c1b3e4f0e1bf",
+    "name": "Viga C 10x20",
+    "description": "Viga L de 10x20 utilizada en la fabricación de productos metálicos.",
+    "price": 100.0,
+    "image": "https://ferrotoll.com/wp-content/uploads/2019/02/V0003.jpg",
+    "stock": 10,
+    "supliers": [
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1ba" },
+      { "suplier_id": "5f9d88b9c4e1c1b3e4f0e1b3" }
+    ]
   }
 ]

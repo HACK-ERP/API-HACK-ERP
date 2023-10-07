@@ -33,7 +33,6 @@ module.exports.list = (req, res, next) => {
 }
 
 module.exports.getCurrentUser = (req, res, next) => {
-    console.log('controlador');
     User.findById(req.currentUser)
       .then(user => {
         if (!user) {

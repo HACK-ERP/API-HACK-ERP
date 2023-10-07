@@ -23,6 +23,17 @@ module.exports.create = (req, res, next) => {
 
 module.exports.list = (req, res, next) => {
     RowMaterial.find()
+    /* haciendo populate de los supliers
+        supliers:[
+        {
+            suplier_id: {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: 'Suplier',
+                required: [true, 'Suplier ID is required'],
+            },
+        },
+    ], */
+        .populate('suppliers.supplier_id')
         .then((rowMaterials) => {
             if(!rowMaterials) {
                 next(createHttpError(StatusCodes.NOT_FOUND, 'RowMaterials not found'))
@@ -34,6 +45,7 @@ module.exports.list = (req, res, next) => {
 }
 
 module.exports.getOne = (req, res, next) => {
+    console.log("entra en getOne")
     RowMaterial.findById(req.params.id)
         .then((rowMaterial) => {
             if(!rowMaterial) {

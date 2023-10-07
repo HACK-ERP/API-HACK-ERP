@@ -27,11 +27,11 @@ const rowMaterialSchema = new mongoose.Schema({
         deffault: 0,
         trim: true
     },
-    supliers:[
+    suppliers:[
         {
-            suplier_id: {
+            supplier_id: {
                 type: mongoose.Schema.Types.ObjectId,
-                ref: 'Suplier',
+                ref: 'Supplier',
                 required: [true, 'Suplier ID is required'],
             },
         },
