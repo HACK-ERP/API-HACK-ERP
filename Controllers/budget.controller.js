@@ -14,8 +14,16 @@ module.exports.create = (req, res, next) => {
 
 module.exports.list = (req, res, next) => {
     Budget.find()
-        .populate('client')
-        .populate('products.product_id')
+        .populate([
+            {
+                path: 'client',
+                model: 'Client',
+            },
+            {
+                path: 'products.product_id',
+                model: 'Product',
+            }
+        ])
         .then((budgets) => res.status(StatusCodes.OK).json(budgets))
         .catch((error) => next(error));
 };

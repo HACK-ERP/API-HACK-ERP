@@ -21,7 +21,7 @@ const rowMaterialSchema = new mongoose.Schema({
     },
     stock: {
         type: Number,
-        deffault: 0,
+        default: 0,
         trim: true
     },
     suppliers:[

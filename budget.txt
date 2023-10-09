@@ -1,0 +1,565 @@
+  /* ,
+  {
+    "budgetNumber": "OT2023016",
+    "client": "5f9d88b9c4e1c1b3e4f0e1c4",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+        "quantity": 3
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+        "quantity": 1
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-11-25T14:00:00Z",
+    "comments": "Entregar en la puerta trasera del edificio."
+  },
+  {
+    "budgetNumber": "OT2023017",
+    "client": "5f9d88b9c4e1c1b3e4f0e1c5",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 2
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-11-30T12:30:00Z",
+    "comments": "Llamar al cliente antes de la entrega para confirmar."
+  },
+  {
+    "budgetNumber": "OT2023018",
+    "client": "5f9d88b9c4e1c1b3e4f0e1c6",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+        "quantity": 1
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+        "quantity": 4
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-12-05T15:45:00Z",
+    "comments": "Cliente solicita factura electrónica."
+  },
+  {
+    "budgetNumber": "OT2023019",
+    "client": "5f9d88b9c4e1c1b3e4f0e1c7",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 1
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Esperando confirmación de disponibilidad de producto."
+  },
+  {
+    "budgetNumber": "OT2023020",
+    "client": "5f9d88b9c4e1c1b3e4f0e1c8",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 3
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+        "quantity": 2
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente requiere entrega urgente."
+  },
+  {
+    "budgetNumber": "OT2023021",
+    "client": "5f9d88b9c4e1c1b3e4f0e1c9",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 1
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 1
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente realizará pago en efectivo en la entrega."
+  },
+  {
+    "budgetNumber": "OT2023022",
+    "client": "5f9d88b9c4e1c1b3e4f0e1ca",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 2
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente requiere factura proforma antes de la entrega."
+  },
+  {
+    "budgetNumber": "OT2023023",
+    "client": "5f9d88b9c4e1c1b3e4f0e1cb",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 3
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 1
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado un descuento adicional."
+  },
+  {
+    "budgetNumber": "OT2023024",
+    "client": "5f9d88b9c4e1c1b3e4f0e1cc",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 1
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 1
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado un cambio en la dirección de entrega."
+  },
+  {
+    "budgetNumber": "OT2023025",
+    "client": "5f9d88b9c4e1c1b3e4f0e1cd",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+        "quantity": 4
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 3
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente requiere confirmación de fecha de entrega antes de proceder."
+  },
+  {
+    "budgetNumber": "OT2023026",
+    "client": "5f9d88b9c4e1c1b3e4f0e1ce",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 1
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado un embalaje especial para los productos."
+  },
+  {
+    "budgetNumber": "OT2023027",
+    "client": "5f9d88b9c4e1c1b3e4f0e1cf",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 3
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 2
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado una cotización para productos relacionados."
+  },
+  {
+    "budgetNumber": "OT2023028",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d0",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 1
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+        "quantity": 1
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado información sobre la garantía de los productos."
+  },
+  {
+    "budgetNumber": "OT2023029",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d1",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 2
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente solicita factura proforma antes de confirmar la orden."
+  },
+  {
+    "budgetNumber": "OT2023030",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d2",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 5
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 3
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente requiere entrega urgente dentro de los próximos 2 días hábiles."
+  },
+  {
+    "budgetNumber": "OT2023031",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d3",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 10
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente desea realizar el pago con tarjeta de crédito y requiere información sobre los plazos de financiamiento."
+  },
+  {
+    "budgetNumber": "OT2023032",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d4",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 2
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado una muestra gratuita de uno de los productos antes de confirmar la orden."
+  },
+  {
+    "budgetNumber": "OT2023033",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d5",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 3
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 2
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente necesita una cotización actualizada con descuentos aplicados."
+  },
+  {
+    "budgetNumber": "OT2023034",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d6",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 5
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 5
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente solicita información adicional sobre la garantía de los productos."
+  },
+  {
+    "budgetNumber": "OT2023035",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d7",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 4
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 3
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente está evaluando diferentes opciones de productos y necesita comparar precios antes de confirmar la orden."
+  },
+  {
+    "budgetNumber": "OT2023036",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d8",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 10
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado una visita técnica para evaluar la instalación de los productos."
+  },
+  {
+    "budgetNumber": "OT2023037",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d9",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 8
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 6
+      }
+    ],
+    "status": "Rechazado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Orden de trabajo en proceso de preparación. Se espera que esté lista para envío la próxima semana."
+  },
+  {
+    "budgetNumber": "OT2023038",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d6",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 2
+      }
+    ],
+    "status": "Rechazado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Pedido especial para el cliente. Los productos están en proceso de fabricación y estarán listos en dos semanas."
+  },
+  {
+    "budgetNumber": "OT2023039",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d7",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 5
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 3
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha realizado algunas modificaciones en la orden original. Se necesita una actualización en la cotización."
+  },
+  {
+    "budgetNumber": "OT2023040",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d8",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 12
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado un cambio en la cantidad de productos. Se necesita ajustar la orden."
+  },
+  {
+    "budgetNumber": "OT2023041",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d9",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 10
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 8
+      }
+    ],
+    "status": "Aceptado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Orden de trabajo completada y lista para su entrega. Se ha programado la entrega para el próximo viernes."
+  },
+  {
+    "budgetNumber": "OT2023042",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d8",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 4
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 6
+      }
+    ],
+    "status": "Aceptado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Orden de trabajo completada y lista para su entrega. El cliente ha confirmado la fecha de entrega para la próxima semana."
+  },
+  {
+    "budgetNumber": "OT2023043",
+    "client": "5f9d88b9c4e1c1b3e4f0e1da",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 15
+      }
+    ],
+    "status": "Rechazado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Orden de trabajo en proceso. Se espera que esté lista para la próxima fecha de entrega programada en dos semanas."
+  },
+  {
+    "budgetNumber": "OT2023044",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d6",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 5
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado una modificación en la orden. Se necesita una revisión y confirmación antes de proceder."
+  },
+  {
+    "budgetNumber": "OT2023045",
+    "client": "5f9d88b9c4e1c1b3e4f0e1db",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 10
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 5
+      }
+    ],
+    "status": "Rechazado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Orden de trabajo en proceso. Se están realizando las tareas de montaje y ensamblaje. Se espera completarla en una semana."
+  },
+  {
+    "budgetNumber": "OT2023046",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d8",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 2
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado una cotización para un nuevo producto. Se está trabajando en la preparación de la oferta."
+  },
+  {
+    "budgetNumber": "OT2023047",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d9",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 6
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 4
+      }
+    ],
+    "status": "Aceptado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Orden de trabajo completada y lista para su entrega. Se ha coordinado la entrega para el próximo lunes."
+  },
+  {
+    "budgetNumber": "OT2023048",
+    "client": "5f9d88b9c4e1c1b3e4f0e1db",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 3
+      }
+    ],
+    "status": "Rechazado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Orden de trabajo en proceso. Se están realizando pruebas de calidad antes de la entrega final."
+  },
+  {
+    "budgetNumber": "OT2023049",
+    "client": "5f9d88b9c4e1c1b3e4f0e1d7",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 7
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 2
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Cliente ha solicitado una modificación en el diseño del producto. Se está trabajando en la propuesta de cambios."
+  },
+  {
+    "budgetNumber": "OT2023050",
+    "client": "5f9d88b9c4e1c1b3e4f0e1da",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 1
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 4
+      }
+    ],
+    "status": "Aceptado",
+    "deliveryDate": "2023-09-10T12:00:00Z",
+    "comments": "Orden de trabajo completada y lista para su entrega. Se ha coordinado la entrega para el próximo viernes."
+  }
+ */
