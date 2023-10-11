@@ -2,6 +2,7 @@
 const User = require('../Models/User.model');
 const { StatusCodes } = require('http-status-codes');
 const createHttpError = require('http-errors');
+const mailer = require('../Config/nodemailer.config');
 
 module.exports.create = (req, res, next) => {
     if (req.file) {
@@ -14,6 +15,7 @@ module.exports.create = (req, res, next) => {
             if(!user) {
                 next(createHttpError(StatusCodes.BAD_REQUEST, 'User not created'))
             } else {
+                mailer.sendValidationEmail(user);
                 res.status(StatusCodes.CREATED).json(user)
             }
         })
