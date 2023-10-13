@@ -34,6 +34,18 @@ module.exports.list = (req, res, next) => {
         .catch(next);
 }
 
+// module.exports.getOne = (req, res, next) => {
+//     User.findById(req.params.id)
+//         .then((user) => {
+//             if(!user) {
+//                 next(createHttpError(StatusCodes.NOT_FOUND, 'User not found'))
+//             } else {
+//                 res.status(StatusCodes.OK).json(user)
+//             }
+//         })
+//         .catch(next);
+// }
+
 module.exports.getCurrentUser = (req, res, next) => {
     User.findById(req.currentUser)
       .then(user => {
