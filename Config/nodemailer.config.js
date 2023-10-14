@@ -30,7 +30,7 @@ module.exports.sendValidationEmail = (user) => {
       html: `
         <h1>Bienvenido a HackERP</h1>
         <p>Activa tu cuenta en el siguiente enlace</p>
-        <a href="${process.env.APP}/users/${user._id}/activate">Click aquí</a>
+        <a href="${process.env.APP_HOST}/hackerp/users/${user._id}/activate">Click aquí</a>
       `,
     })
     .then(() => {
