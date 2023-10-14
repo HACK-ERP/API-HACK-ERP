@@ -7,8 +7,6 @@ module.exports.create = (req, res, next) => {
   console.log("Create request received. Body:", req.body);
   const ot = new OT(req.body);
   ot.save()
-    .populate("products.product_id")
-    .populate("client.client_id")
     .then(
       (ot) =>
         // enviar mail de oT
@@ -22,11 +20,19 @@ module.exports.create = (req, res, next) => {
 module.exports.list = (req, res, next) => {
   console.log("List request received.");
   OT.find()
-    .populate("products.product_id")
-    .populate("client.client_id")
-    .then((ots) => res.status(StatusCodes.OK).json(ots))
-    .catch((error) => next(error));
+  .populate({
+    path: 'budget'
+  })
+  .exec()
+  .then((ots) => {
+    res.status(StatusCodes.OK).json(ots);
+  })
+  .catch((error) => {
+    next(error);
+  });
+
 };
+
 
 module.exports.get = (req, res, next) => {
   console.log("Get request received. Params:", req.params);
