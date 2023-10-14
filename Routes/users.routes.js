@@ -8,14 +8,17 @@ const authController = require('../Controllers/auth.controller');
 const upload = require('../Config/cloudinary.config');
 
 //users
-router.post('/user/create', usersController.create);
+router.post('/users/create', usersController.create);
 router.get('/users/list', usersController.list);
-// router.get('/user/:id', usersController.getOne);
 router.get('/user/current',authMiddleware.isAuthenticated, usersController.getCurrentUser);
+router.get('/user/:id', usersController.getOne);
 
 //auth
 router.post('/user/login-mail', authController.loginMail);
 router.post('/user/login-phone', authController.loginPhone);
+
+//activate
+router.get('/users/:id/activate', usersController.activate);
 
 
 module.exports = router;
