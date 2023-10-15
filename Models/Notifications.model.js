@@ -8,7 +8,7 @@ const notificationSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User',
         required: [true, 'Sender is required']
-    },
+    },    
     receiver: {
         type: String,
         enum: RECIVER,
@@ -23,7 +23,8 @@ const notificationSchema = new mongoose.Schema({
         enum: ["Leído", "No leído"],
         default: "No leído"
     }
-}, { timestamps: true,
+}, {
+    timestamps: true,
     collection: 'Notification',
     toJSON: {
         virtuals: true,

@@ -11,16 +11,32 @@ module.exports.create = (req, res, next) => {
 
 module.exports.list = (req, res, next) => {
     Notification.find()
-        .populate({
-            path: 'sender',
-            model: 'User',
-        })
+        .populate('sender')
         .then(notifications => {
+            notifications.forEach(notification => {
+                console.log(notification.sender);
+            });
             res.status(StatusCodes.OK).json(notifications);
         })
         .catch(error => {
             next(error);
         });
+}
+
+module.exports.detail = (req, res, next) => {
+    Notification.findById(req.params.id)
+        .populate({
+            path: 'user',
+            model: 'User',
+        })
+        .then(notification => {
+            if (!notification) {
+                throw createError(StatusCodes.NOT_FOUND, "Notification not found");
+            } else {
+                res.status(StatusCodes.OK).json(notification);
+            }
+        })
+        .catch(error => next(error));
 }
 
 module.exports.update = (req, res, next) => {
