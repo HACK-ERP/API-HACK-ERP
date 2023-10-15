@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const otStatus = ['Pendiente', 'En Proceso', 'Entregado'];
+const otStatus = ['Pendiente', "Materiales Solicitados", "Materiales Recibidos", 'En Proceso', 'Entregado'];
 
 const oTSchema = new mongoose.Schema({
     code: {

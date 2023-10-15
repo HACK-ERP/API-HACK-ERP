@@ -1,0 +1,62 @@
+[
+    {
+      "sender": "614c285d61b10d01a8ce0716",
+      "receiver": "Administrador",
+      "message": "Hola, ¡nueva actualización disponible!",
+      "status": "No leído"
+    },
+    {
+      "sender": "614c286f61b10d01a8ce0717",
+      "receiver": "Ventas",
+      "message": "Reunión de ventas a las 10 AM en la sala de conferencias.",
+      "status": "No leído"
+    },
+    {
+      "sender": "614c287a61b10d01a8ce0718",
+      "receiver": "Producción",
+      "message": "El pedido #12345 está listo para su envío.",
+      "status": "No leído"
+    },
+    {
+      "sender": "614c285d61b10d01a8ce0716",
+      "receiver": "Administrador",
+      "message": "Se ha completado la tarea de mantenimiento programada.",
+      "status": "No leído"
+    },
+    {
+      "sender": "614c285d61b10d01a8ce0716",
+      "receiver": "Ventas",
+      "message": "Recordatorio: Reunión de ventas mañana a las 2 PM.",
+      "status": "No leído"
+    },
+    {
+      "sender": "614c287a61b10d01a8ce0718",
+      "receiver": "Producción",
+      "message": "Hemos recibido nueva materia prima para la producción.",
+      "status": "No leído"
+    },
+    {
+      "sender": "614c286f61b10d01a8ce0717",
+      "receiver": "Ventas",
+      "message": "Informe de ventas del mes pasado adjunto.",
+      "status": "No leído"
+    },
+    {
+      "sender": "614c288a61b10d01a8ce0719",
+      "receiver": "Logistica",
+      "message": "El envío programado para hoy se ha retrasado.",
+      "status": "No leído"
+    },
+    {
+      "sender": "614c285d61b10d01a8ce0716",
+      "receiver": "Administrador",
+      "message": "Actualización importante del sistema, por favor, lea el correo electrónico.",
+      "status": "No leído"
+    },
+    {
+      "sender": "614c287a61b10d01a8ce0718",
+      "receiver": "Producción",
+      "message": "El equipo de producción necesita más materiales.",
+      "status": "No leído"
+    }
+  ]
