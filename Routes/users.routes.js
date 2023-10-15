@@ -11,7 +11,9 @@ const upload = require('../Config/cloudinary.config');
 router.post('/users/create', usersController.create);
 router.get('/users/list', usersController.list);
 router.get('/user/current',authMiddleware.isAuthenticated, usersController.getCurrentUser);
-router.get('/user/:id', usersController.getOne);
+router.get('/user/:id', usersController.getOne)
+router.put('/user/:id/edit', usersController.update);
+router.delete('/users/:id', usersController.delete);
 
 //auth
 router.post('/user/login-mail', authController.loginMail);
