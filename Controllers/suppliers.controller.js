@@ -55,3 +55,17 @@ module.exports.update = (req, res, next) => {
         })
         .catch(next);
 }
+
+//delete
+
+module.exports.delete = (req, res, next) => {
+    Supplier.findByIdAndDelete(req.params.id)
+        .then((supplier) => {
+            if(!supplier) {
+                next(createHttpError(StatusCodes.NOT_FOUND, 'Supplier not found'))
+            } else {
+                res.status(StatusCodes.OK).json(supplier)
+            }
+        })
+        .catch(next);
+}
