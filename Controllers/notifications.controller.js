@@ -26,7 +26,7 @@ module.exports.list = (req, res, next) => {
 module.exports.detail = (req, res, next) => {
     Notification.findById(req.params.id)
         .populate({
-            path: 'user',
+            path: 'sender',
             model: 'User',
         })
         .then(notification => {
@@ -40,6 +40,7 @@ module.exports.detail = (req, res, next) => {
 }
 
 module.exports.update = (req, res, next) => {
+    console.log("Update request received. Body:", req.body);
     const id = req.params.id;
     const status = req.body.status;
 
@@ -55,7 +56,9 @@ module.exports.update = (req, res, next) => {
                 res.status(StatusCodes.OK).json(notification);
             }
         })
-        .catch(error => next(error));
+        .catch(error => {
+            console.log(error);
+            next(error)});
 }
 
 
