@@ -5,9 +5,10 @@
     "email": "arnold.sales@hack-erp.com",
     "password": "arnold123",
     "phone": 1234567890,
-    "role": "SALES",
+    "role": "Administrador",
     "active": true,
-    "avatar": "https://image.tmdb.org/t/p/w500/sOkCXc9xuSr6v7mdAq9LwEBje68.jpg"
+    "avatar": "https://image.tmdb.org/t/p/w500/sOkCXc9xuSr6v7mdAq9LwEBje68.jpg",
+    "id": "652979a04855c43cb09bcb3e"
   },
   {
     "name": "Ben Affleck",
@@ -15,9 +16,11 @@
     "email": "ben.sales@hack-erp.com",
     "password": "ben123",
     "phone": 1234567891,
-    "role": "SALES",
+    "role": "Ventas",
     "active": true,
-    "avatar": "https://image.tmdb.org/t/p/w500/cPuPt6mYJ83DjvO3hbjNGug6Fbi.jpg"
+    "avatar": "https://image.tmdb.org/t/p/w500/cPuPt6mYJ83DjvO3hbjNGug6Fbi.jpg",
+    "id": "652979a04855c43cb09bcb3f"
+
   },
   {
     "name": "Idris Elba",
@@ -25,9 +28,10 @@
     "email": "idris.production@hack-erp.com",
     "password": "idris123",
     "phone": 1234567892,
-    "role": "PRODUCTION",
+    "role": "Producción",
     "active": true,
-    "avatar": "https://image.tmdb.org/t/p/w500/d9NkfCwczP0TjgrjpF94jF67SK8.jpg"
+    "avatar": "https://image.tmdb.org/t/p/w500/d9NkfCwczP0TjgrjpF94jF67SK8.jpg",
+    "id": "652979a04855c43cb09bcb40"
   },
   {
     "name": "Johnny Depp",
@@ -35,9 +39,10 @@
     "email": "johnny.production@hack-erp.com",
     "password": "johnny123",
     "phone": 1234567893,
-    "role": "PRODUCTION",
+    "role": "Administrador",
     "active": true,
-    "avatar": "https://image.tmdb.org/t/p/w500/kbWValANhZI8rbWZXximXuMN4UN.jpg"
+    "avatar": "https://image.tmdb.org/t/p/w500/kbWValANhZI8rbWZXximXuMN4UN.jpg",
+    "id": "652979a04855c43cb09bcb41"
   },
   {
     "name": "Monica Bellucci",
@@ -45,9 +50,10 @@
     "email": "monica.warehouse@hack-erp.com",
     "password": "monica123",
     "phone": 1234567894,
-    "role": "WAREHOUSE",
+    "role": "Logistica",
     "active": true,
-    "avatar": "https://image.tmdb.org/t/p/w500/qlT4904d8oi2NIs28RrgnIZDFZB.jpg"
+    "avatar": "https://image.tmdb.org/t/p/w500/qlT4904d8oi2NIs28RrgnIZDFZB.jpg",
+    "id": "652979a04855c43cb09bcb42"
   },
   {
     "name": "Gal Gadot",
@@ -55,9 +61,10 @@
     "email": "gal.warehouse@hack-erp.com",
     "password": "gal123",
     "phone": 1234567895,
-    "role": "WAREHOUSE",
+    "role": "Logistica",
     "active": true,
-    "avatar": "https://image.tmdb.org/t/p/w500/34kHAyBaBhq2kUrmhM15paEBuuI.jpg"
+    "avatar": "https://image.tmdb.org/t/p/w500/34kHAyBaBhq2kUrmhM15paEBuuI.jpg",
+    "id": "652979a04855c43cb09bcb43"
   },
   {
     "name": "Ian McKellen",
@@ -65,9 +72,10 @@
     "email": "ian.purchasing@hack-erp.com",
     "password": "ian123",
     "phone": 1234567896,
-    "role": "PURCHASING",
+    "role": "Compras",
     "active": true,
-    "avatar": "https://image.tmdb.org/t/p/w500/coWjgMEYJjk2OrNddlXCBm8EIr3.jpg"
+    "avatar": "https://image.tmdb.org/t/p/w500/coWjgMEYJjk2OrNddlXCBm8EIr3.jpg",
+    "id": "652979a04855c43cb09bcb44"
   },
   {
     "name": "Matt Damon",
@@ -75,9 +83,10 @@
     "email": "matt.purchasing@hack-erp.com",
     "password": "matt123",
     "phone": 1234567897,
-    "role": "PURCHASING",
+    "role": "Compras",
     "active": true,
-    "avatar": "https://image.tmdb.org/t/p/w500/elSlNgV8xVifsbHpFsqrPGxJToZ.jpg"
+    "avatar": "https://image.tmdb.org/t/p/w500/elSlNgV8xVifsbHpFsqrPGxJToZ.jpg",
+    "id": "652979a04855c43cb09bcb45"
   },
   {
     "name": "David Harbour",
@@ -85,9 +94,10 @@
     "email": "david.sales@hack-erp.com",
     "password": "david123",
     "phone": 1234567898,
-    "role": "SALES",
+    "role": "Ventas",
     "active": true,
-    "avatar": "https://image.tmdb.org/t/p/w500/chPekukMF5SNnW6b22NbYPqAStr.jpg"
+    "avatar": "https://image.tmdb.org/t/p/w500/chPekukMF5SNnW6b22NbYPqAStr.jpg",
+    "id": "652979a04855c43cb09bcb46"
   },
   {
     "name": "Ansel Elgort",
@@ -95,8 +105,9 @@
     "email": "ansel.sales@hack-erp.com",
     "password": "ansel123",
     "phone": 1234567899,
-    "role": "SALES",
+    "role": "Ventas",
     "active": true,
-    "avatar": "https://image.tmdb.org/t/p/w500/uQYUfGvOZkB5x25Z19UeyLABHmr.jpg"
+    "avatar": "https://image.tmdb.org/t/p/w500/uQYUfGvOZkB5x25Z19UeyLABHmr.jpg",
+    "id": "652979a04855c43cb09bcb47"
   }
 ]

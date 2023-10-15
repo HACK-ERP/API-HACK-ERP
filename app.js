@@ -45,6 +45,8 @@ const budgetRoutes = require("./Routes/budget.routes");
 app.use("/hackerp", budgetRoutes);
 const usersRoutes = require("./Routes/users.routes");
 app.use("/hackerp", usersRoutes);
+const notificationsRoutes = require("./Routes/notifications.routes");
+app.use("/hackerp", notificationsRoutes);
 
 //listen
 //Middleware general de errores

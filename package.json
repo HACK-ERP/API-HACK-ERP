@@ -13,7 +13,8 @@
     "rowMaterials.seeds": "node ./seeds/rowMaterials.seed.js",
     "oT.seeds": "node ./seeds/ot.seed.js",
     "clients.seeds": "node ./seeds/clients.seed.js",
-    "budgets.seeds": "node ./seeds/budgets.seed.js"
+    "budgets.seeds": "node ./seeds/budgets.seed.js",
+    "notifications.seeds": "node ./seeds/notifications.seed.js"
   },
   "author": "",
   "license": "ISC",
