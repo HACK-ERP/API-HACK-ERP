@@ -11,7 +11,6 @@ module.exports.create = (req, res, next) => {
       (ot) =>
         // enviar mail de oT
         mailer.sendBudgetEmail(ot),
-      res.redirect("/budget"),
       res.status(StatusCodes.CREATED).json(ot)
     )
     .catch((error) => next(error));

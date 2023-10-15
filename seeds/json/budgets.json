@@ -12,7 +12,7 @@
         "quantity": 1
       }
     ],
-    "status": "Aceptado",
+    "status": "Enviado",
     "deliveryDate": "2023-09-10T12:00:00Z",
     "comments": "Urgente, por favor entregar lo antes posible.",
     "_id": "6521520d2078fc7d0c175d25"
@@ -26,7 +26,7 @@
         "quantity": 5
       }
     ],
-    "status": "Aceptado",
+    "status": "Enviado",
     "deliveryDate": "2023-09-15T14:00:00Z",
     "comments": "Favor confirmar la disponibilidad de materiales.",
     "_id": "6521520d2078fc7d0c175d2d"
@@ -44,7 +44,7 @@
         "quantity": 1
       }
     ],
-    "status": "Aceptado",
+    "status": "Enviado",
     "deliveryDate": "2023-09-20T10:30:00Z",
     "comments": "Necesitamos calidad premium en la pintura.",
     "_id": "6521520d2078fc7d0c175d30"
@@ -62,7 +62,7 @@
         "quantity": 1
       }
     ],
-    "status": "Aceptado",
+    "status": "Enviado",
     "deliveryDate": "2023-09-25T11:45:00Z",
     "comments": "Enviar factura proforma antes del envío.",
     "_id": "6521520d2078fc7d0c175d33"
@@ -80,7 +80,7 @@
         "quantity": 4
       }
     ],
-    "status": "Aceptado",
+    "status": "Enviado",
     "deliveryDate": "2023-09-30T16:15:00Z",
     "comments": "Por favor, empaquetar los productos de forma segura.",
     "_id": "6521520d2078fc7d0c175d35"
