@@ -12,9 +12,10 @@
         "quantity": 1
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-09-10T12:00:00Z",
-    "comments": "Urgente, por favor entregar lo antes posible."
+    "comments": "Urgente, por favor entregar lo antes posible.",
+    "_id": "6521520d2078fc7d0c175d25"
   },
   {
     "budgetNumber": "OT2023002",
@@ -25,9 +26,10 @@
         "quantity": 5
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-09-15T14:00:00Z",
-    "comments": "Favor confirmar la disponibilidad de materiales."
+    "comments": "Favor confirmar la disponibilidad de materiales.",
+    "_id": "6521520d2078fc7d0c175d2d"
   },
   {
     "budgetNumber": "OT2023003",
@@ -42,9 +44,10 @@
         "quantity": 1
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-09-20T10:30:00Z",
-    "comments": "Necesitamos calidad premium en la pintura."
+    "comments": "Necesitamos calidad premium en la pintura.",
+    "_id": "6521520d2078fc7d0c175d30"
   },
   {
     "budgetNumber": "OT2023004",
@@ -59,9 +62,10 @@
         "quantity": 1
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-09-25T11:45:00Z",
-    "comments": "Enviar factura proforma antes del envío."
+    "comments": "Enviar factura proforma antes del envío.",
+    "_id": "6521520d2078fc7d0c175d33"
   },
   {
     "budgetNumber": "OT2023005",
@@ -76,9 +80,10 @@
         "quantity": 4
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-09-30T16:15:00Z",
-    "comments": "Por favor, empaquetar los productos de forma segura."
+    "comments": "Por favor, empaquetar los productos de forma segura.",
+    "_id": "6521520d2078fc7d0c175d35"
   },
   {
     "budgetNumber": "OT2023006",
@@ -89,9 +94,10 @@
         "quantity": 2
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-10-05T09:30:00Z",
-    "comments": "Requiere inspección de calidad antes del envío."
+    "comments": "Requiere inspección de calidad antes del envío.",
+    "_id": "6521520d2078fc7d0c175d38"
   },
   {
     "budgetNumber": "OT2023007",
@@ -106,9 +112,10 @@
         "quantity": 2
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-10-10T13:45:00Z",
-    "comments": "Cliente habitual, procesar pedido con prioridad."
+    "comments": "Cliente habitual, procesar pedido con prioridad.",
+    "_id": "6521520d2078fc7d0c175d3a"
   },
 
   {
@@ -124,9 +131,10 @@
         "quantity": 1
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-10-15T10:00:00Z",
-    "comments": "Requiere factura con fecha de vencimiento extendida."
+    "comments": "Requiere factura con fecha de vencimiento extendida.",
+    "_id": "6521520d2078fc7d0c175d3d"
   },
   {
     "budgetNumber": "OT2023009",
@@ -141,9 +149,10 @@
         "quantity": 2
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-10-20T14:30:00Z",
-    "comments": "Por favor, etiquetar los paquetes de forma clara."
+    "comments": "Por favor, etiquetar los paquetes de forma clara.",
+    "_id": "6521520d2078fc7d0c175d40"
   },
   {
     "budgetNumber": "OT2023010",
@@ -158,9 +167,10 @@
         "quantity": 3
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-10-25T11:00:00Z",
-    "comments": "Entregar en la dirección alternativa proporcionada."
+    "comments": "Entregar en la dirección alternativa proporcionada.",
+    "_id": "6521520d2078fc7d0c175d43"
   },
   {
     "budgetNumber": "OT2023011",
@@ -175,9 +185,10 @@
         "quantity": 1
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-10-30T15:15:00Z",
-    "comments": "Cliente VIP, atención especial requerida."
+    "comments": "Cliente VIP, atención especial requerida.",
+    "_id": "6521520d2078fc7d0c175d46"
   },
   {
     "budgetNumber": "OT2023012",
@@ -192,9 +203,10 @@
         "quantity": 2
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-11-05T09:45:00Z",
-    "comments": "Enviar confirmación de envío por correo electrónico."
+    "comments": "Enviar confirmación de envío por correo electrónico.",
+    "_id": "6521520d2078fc7d0c175d49"
   },
   {
     "budgetNumber": "OT2023013",
@@ -209,9 +221,10 @@
         "quantity": 4
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-11-10T13:00:00Z",
-    "comments": "Por favor, confirmar fecha de entrega exacta."
+    "comments": "Por favor, confirmar fecha de entrega exacta.",
+    "_id": "6521520d2078fc7d0c175d28"
   },
   {
     "budgetNumber": "OT2023014",
@@ -226,9 +239,10 @@
         "quantity": 2
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-11-15T16:30:00Z",
-    "comments": "Asegurarse de que los productos estén bien embalados."
+    "comments": "Asegurarse de que los productos estén bien embalados.",
+    "_id": "6521520d2078fc7d0c175d2a"
   },
   {
     "budgetNumber": "OT2023015",
@@ -243,8 +257,91 @@
         "quantity": 3
       }
     ],
-    "status": "Enviado",
+    "status": "Aceptado",
     "deliveryDate": "2023-11-20T10:15:00Z",
-    "comments": "Cliente necesita asistencia técnica después de la entrega."
-  }
+    "comments": "Cliente necesita asistencia técnica después de la entrega.",
+    "_id": "6521520d2078fc7d0c175d52"
+  },
+  {
+      "budgetNumber": "OT2023016",
+      "client": "65213e75adcbf6c466e94804",
+      "products": [
+        {
+          "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+          "quantity": 2
+        },
+        {
+          "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+          "quantity": 1
+        }
+      ],
+      "status": "Enviado",
+      "deliveryDate": "2023-11-25T09:30:00Z",
+      "comments": "Cliente regular, enviar confirmación de envío.",
+      "_id": "6521520d2078fc7d0c175d56"
+    },
+    {
+      "budgetNumber": "OT2023017",
+      "client": "65213e75adcbf6c466e94808",
+      "products": [
+        {
+          "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+          "quantity": 5
+        }
+      ],
+      "status": "Enviado",
+      "deliveryDate": "2023-11-30T14:00:00Z",
+      "comments": "Favor confirmar disponibilidad de productos.",
+      "_id": "6521520d2078fc7d0c175d59"
+    },
+    {
+      "budgetNumber": "OT2023018",
+      "client": "65213e75adcbf6c466e9480a",
+      "products": [
+        {
+          "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+          "quantity": 3
+        },
+        {
+          "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+          "quantity": 1
+        }
+      ],
+      "status": "Enviado",
+      "deliveryDate": "2023-12-05T11:45:00Z",
+      "comments": "Enviar factura proforma antes del envío.",
+      "_id": "6521520d2078fc7d0c175d5c"
+    },
+    {
+      "budgetNumber": "OT2023019",
+      "client": "65213e75adcbf6c466e9480c",
+      "products": [
+        {
+          "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+          "quantity": 2
+        },
+        {
+          "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+          "quantity": 1
+        }
+      ],
+      "status": "Enviado",
+      "deliveryDate": "2023-12-10T16:15:00Z",
+      "comments": "Por favor, empaquetar los productos de forma segura.",
+      "_id": "6521520d2078fc7d0c175d5f"
+    },
+    {
+      "budgetNumber": "OT2023020",
+      "client": "65213e75adcbf6c466e9480b",
+      "products": [
+        {
+          "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+          "quantity": 2
+        }
+      ],
+      "status": "Enviado",
+      "deliveryDate": "2023-12-15T09:30:00Z",
+      "comments": "Requiere inspección de calidad antes del envío.",
+      "_id": "6521520d2078fc7d0c175d62"
+    }
 ]

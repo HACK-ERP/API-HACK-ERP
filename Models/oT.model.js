@@ -35,4 +35,3 @@ const oTSchema = new mongoose.Schema({
 const OT = mongoose.model('OT', oTSchema);
 
 module.exports = OT;
-
