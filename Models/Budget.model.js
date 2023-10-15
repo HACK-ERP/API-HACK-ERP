@@ -28,7 +28,7 @@ const budgetSchema = new mongoose.Schema({
     ],
     status: {
         type: String,
-        enum: ['Enviado', 'Aceptado', 'Rechazado'],
+        enum: ['Enviado', 'Aceptado', 'Rechazado','Entregado'],
         default: 'Enviado'
     },
     deliveryDate: {

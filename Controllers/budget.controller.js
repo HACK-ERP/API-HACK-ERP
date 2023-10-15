@@ -56,6 +56,7 @@ module.exports.delete = (req, res, next) => {
 
 module.exports.update = (req, res, next) => {
     const id = req.params.id;
+
     console.log("Update request received. ID:", id);
     Budget.findByIdAndUpdate(id, req.body, {
         runValidators: true,
@@ -71,3 +72,24 @@ module.exports.update = (req, res, next) => {
         })
         .catch((error) => next(error));
 };
+
+module.exports.statusUpdate = (req, res, next) => {
+    const id = req.params.id;
+    const status = req.body.status;
+
+    console.log("Update request received. ID:", id);
+    Budget.findByIdAndUpdate(id, { status }, {
+        runValidators: true,
+        new: true,
+    })
+        .then((budget) => {
+            if (!budget) {
+                throw createError(StatusCodes.NOT_FOUND, "Budget not found");
+            } else {
+                console.log("Budget updated successfully:", budget);
+                res.status(StatusCodes.OK).json(budget);
+            }
+        })
+        .catch((error) => next(error));
+}
+

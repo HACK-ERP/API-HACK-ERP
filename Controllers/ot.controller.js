@@ -21,9 +21,9 @@ module.exports.list = (req, res, next) => {
   console.log("List request received.");
   OT.find()
   .populate({
-    path: 'budget'
+    path: 'budget',
+    model: 'Budget',
   })
-  .exec()
   .then((ots) => {
     res.status(StatusCodes.OK).json(ots);
   })
