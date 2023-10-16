@@ -37,11 +37,11 @@ const supplierSchema = new mongoose.Schema({
             rowMaterials: {
                 type: mongoose.Schema.Types.ObjectId,
                 ref: 'RowMaterial',
-                required: [true, 'RowMaterial ID is required'],
+                required: [false, 'RowMaterial ID is required'],
             },
             price: {
                 type: Number,
-                required: [true, 'Price is required'],
+                required: [false, 'Price is required'],
                 trim: true
             },
         },
