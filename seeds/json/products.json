@@ -3,7 +3,7 @@
     "_id":"5f9d88b9c4e1c1b3e4f0e1d5",
     "name": "Antena de Comunicación",
     "description": "Antena de alta ganancia para comunicación inalámbrica.",
-    "price": 0,
+    "price": 100000,
     "image": "https://images.freeimages.com/images/large-previews/d33/radio-antenna-1254896.jpg",
     "materials": [
       {
@@ -40,7 +40,7 @@
     "_id": "5f9d88b9c4e1c1b3e4f0e1d6",
     "name": "Nave Industrial",
     "description": "Nave industrial de acero para almacenamiento y fabricación.",
-    "price": 0,
+    "price": 100000,
     "image": "https://aceroscrea.com/wp-content/uploads/2023/01/vista-interior-de-una-nave-industrial-construida-con-perfiles-y-paneles.jpg",
     "materials": [
       {
@@ -77,7 +77,7 @@
     "_id": "5f9d88b9c4e1c1b3e4f0e1d7",
     "name": "Enrrejado metálico industrial",
     "description": "Enrrejado metálico industrial para cercas y aplicaciones de seguridad.",
-    "price": 0,
+    "price": 100000,
     "image": "https://vinuesavallasycercados.com/wp-content/uploads/2013-11-04-12.45.23.jpg",
     "materials": [
       {
@@ -122,7 +122,7 @@
     "_id": "5f9d88b9c4e1c1b3e4f0e1d8",
     "name": "Poste de alumbrado metálico",
     "description": "Poste de alumbrado metálico para iluminación de calles y carreteras.",
-    "price": 0,
+    "price": 100000,
     "image": "https://lw-cdn.com/images/DEF62538C623/k_1f76e07bdcb24968604d0bcd76ffdc53;w_1600;h_1600;q_70/9960019.webp",
     "materials": [
       {
@@ -143,7 +143,7 @@
     "_id": "5f9d88b9c4e1c1b3e4f0e1d9",
     "name": "Estructura de acero para puentes peatonales",
     "description": "Puente peatonal de acero para cruces de carreteras y vías férreas.",
-    "price": 0,
+    "price": 100000,
     "image": "https://www.estructurasmetalicascolombia.com/images/construcciones_metalicas/pasarelas/cercha_tipo_warren_a_traves_de_pasarelas_de_puentes_peatonales_2.jpg",
     "materials": [
       {
@@ -184,7 +184,7 @@
     "_id": "5f9d88b9c4e1c1b3e4f0e1da",
     "name": "Barandas de seguridad de acero negro",
     "description": "Barandas de seguridad para transito peatonal",
-    "price": 0,
+    "price": 100000,
     "image": "https://img.directindustry.es/images_di/projects/images-g/barreras-seguridad-flexibles-automaticas-150971-18471172.jpg",
     "materials": [
       {
@@ -225,7 +225,7 @@
     "_id": "5f9d88b9c4e1c1b3e4f0e1db",
     "name": "Escaleras de acero",
     "description": "Escaleras de acero negro para exteriores con suelo antideslizante",
-    "price": 0,
+    "price": 100000,
     "image": "https://cdn.wallapop.com/images/10420/ar/oh/__/c10420p651153267/i2051194729.jpg?pictureSize=W640",
     "materials": [
       {
@@ -261,7 +261,7 @@
   {
     "name": "Tuberías de acero para sistemas de riego",
     "description": "Tuberias para sistemas de riego por asperción",
-    "price": 0,
+    "price": 100000,
     "image": "https://www.traxco.es/blog/wp-content/uploads/2009/07/tubo-acero-polietileno-interior.jpg",
     "materials": [
       {
