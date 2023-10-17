@@ -1,17 +1,28 @@
 const createError = require("http-errors");
 const OT = require("../Models/oT.model");
-const mailer = require("../Config/nodemailer.config");
+const Notification = require("../Models/Notifications.model");
+
 const { StatusCodes } = require("http-status-codes");
 
 module.exports.create = (req, res, next) => {
   console.log("Create request received. Body:", req.body);
   const ot = new OT(req.body);
+  const sender = req.body.userId;
   ot.save()
     .then(
-      (ot) =>
-        // enviar mail de oT
-        mailer.sendBudgetEmail(ot),
+      (ot) =>{
+        const notification = new Notification({
+          sender: sender,
+          receiver: "Producción",
+          message: `Se ha creado una la OT ${req.body.code}`,
+        });
+      notification.save();
+      console.log("OT created successfully:", ot);
+
       res.status(StatusCodes.CREATED).json(ot)
+      }
+        
+        
     )
     .catch((error) => next(error));
 };
