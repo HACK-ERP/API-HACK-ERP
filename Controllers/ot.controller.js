@@ -30,25 +30,31 @@ module.exports.create = (req, res, next) => {
 module.exports.list = (req, res, next) => {
   console.log("List request received.");
   OT.find()
-  .populate({
-    path: 'budget',
-    model: 'Budget',
-  })
-  .then((ots) => {
-    res.status(StatusCodes.OK).json(ots);
-  })
-  .catch((error) => {
-    next(error);
-  });
-
+    .populate({
+      path: "budget",
+      model: "Budget",
+    })
+    .then((ots) => {
+      res.status(StatusCodes.OK).json(ots);
+    })
+    .catch((error) => {
+      next(error);
+    });
 };
 
-
-module.exports.get = (req, res, next) => {
+module.exports.getOne = (req, res, next) => {
   console.log("Get request received. Params:", req.params);
   OT.findById(req.params.id)
-    .populate("products.product_id")
-    .populate("client.client_id")
+    .populate([
+      {
+        path: "products.product_id",
+        model: "Product",
+      },
+      {
+        path: "client.client_id",
+        model: "Client",
+      },
+    ])
     .then((ot) => {
       if (ot) {
         res.status(StatusCodes.OK).json(ot);
@@ -59,25 +65,25 @@ module.exports.get = (req, res, next) => {
     .catch((error) => next(error));
 };
 
-module.exports.update = (req, res, next) => {
-  const id = req.params.id;
-  console.log("Update request received. Params:", req.params);
-  OT.findByIdAndUpdate(id, req.body, {
-    runValidators: true,
-    new: true,
-  })
-    .populate("products.product_id")
-    .populate("client.client_id")
-    .then((ot) => {
-      if (!ot) {
-        throw createError(StatusCodes.NOT_FOUND, "OT not found");
-      } else {
-        console.log("OT updated successfully:", ot);
-        res.status(StatusCodes.OK).json(ot);
-      }
-    })
-    .catch((error) => next(error));
-};
+// module.exports.update = (req, res, next) => {
+//   const id = req.params.id;
+//   console.log("Update request received. Params:", req.params);
+//   OT.findByIdAndUpdate(id, req.body, {
+//     runValidators: true,
+//     new: true,
+//   })
+//     .populate("products.product_id")
+//     .populate("client.client_id")
+//     .then((ot) => {
+//       if (!ot) {
+//         throw createError(StatusCodes.NOT_FOUND, "OT not found");
+//       } else {
+//         console.log("OT updated successfully:", ot);
+//         res.status(StatusCodes.OK).json(ot);
+//       }
+//     })
+//     .catch((error) => next(error));
+// };
 //delete
 
 module.exports.delete = (req, res, next) => {
