@@ -24,14 +24,10 @@ const rowMaterialSchema = new mongoose.Schema({
         default: 0,
         trim: true
     },
-    suppliers:[
-        {
-            supplier_id: {
-                type: mongoose.Schema.Types.ObjectId,
-                ref: 'Supplier',
-            },
-        },
-    ],
+    suppliers: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Supplier'
+    }]
 },
 { timestamps: true,
     toJSON: {
