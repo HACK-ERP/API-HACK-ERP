@@ -13,7 +13,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-09-10T12:00:00Z",
+    "deliveryDate": "2023-01-10T12:00:00Z",
     "comments": "Urgente, por favor entregar lo antes posible.",
     "_id": "6521520d2078fc7d0c175d25"
   },
@@ -27,7 +27,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-09-15T14:00:00Z",
+    "deliveryDate": "2023-01-15T14:00:00Z",
     "comments": "Favor confirmar la disponibilidad de materiales.",
     "_id": "6521520d2078fc7d0c175d2d"
   },
@@ -45,7 +45,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-09-20T10:30:00Z",
+    "deliveryDate": "2023-02-20T10:30:00Z",
     "comments": "Necesitamos calidad premium en la pintura.",
     "_id": "6521520d2078fc7d0c175d30"
   },
@@ -63,7 +63,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-09-25T11:45:00Z",
+    "deliveryDate": "2023-02-25T11:45:00Z",
     "comments": "Enviar factura proforma antes del envío.",
     "_id": "6521520d2078fc7d0c175d33"
   },
@@ -81,7 +81,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-09-30T16:15:00Z",
+    "deliveryDate": "2023-03-30T16:15:00Z",
     "comments": "Por favor, empaquetar los productos de forma segura.",
     "_id": "6521520d2078fc7d0c175d35"
   },
@@ -95,7 +95,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-10-05T09:30:00Z",
+    "deliveryDate": "2023-03-05T09:30:00Z",
     "comments": "Requiere inspección de calidad antes del envío.",
     "_id": "6521520d2078fc7d0c175d38"
   },
@@ -113,11 +113,10 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-10-10T13:45:00Z",
+    "deliveryDate": "2023-04-10T13:45:00Z",
     "comments": "Cliente habitual, procesar pedido con prioridad.",
     "_id": "6521520d2078fc7d0c175d3a"
   },
-
   {
     "budgetNumber": "OT2023008",
     "client": "65213e75adcbf6c466e94804",
@@ -132,7 +131,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-10-15T10:00:00Z",
+    "deliveryDate": "2023-04-15T10:00:00Z",
     "comments": "Requiere factura con fecha de vencimiento extendida.",
     "_id": "6521520d2078fc7d0c175d3d"
   },
@@ -150,7 +149,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-10-20T14:30:00Z",
+    "deliveryDate": "2023-05-20T14:30:00Z",
     "comments": "Por favor, etiquetar los paquetes de forma clara.",
     "_id": "6521520d2078fc7d0c175d40"
   },
@@ -168,7 +167,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-10-25T11:00:00Z",
+    "deliveryDate": "2023-05-25T11:00:00Z",
     "comments": "Entregar en la dirección alternativa proporcionada.",
     "_id": "6521520d2078fc7d0c175d43"
   },
@@ -186,7 +185,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-10-30T15:15:00Z",
+    "deliveryDate": "2023-06-30T15:15:00Z",
     "comments": "Cliente VIP, atención especial requerida.",
     "_id": "6521520d2078fc7d0c175d46"
   },
@@ -204,7 +203,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-11-05T09:45:00Z",
+    "deliveryDate": "2023-06-05T09:45:00Z",
     "comments": "Enviar confirmación de envío por correo electrónico.",
     "_id": "6521520d2078fc7d0c175d49"
   },
@@ -222,7 +221,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-11-10T13:00:00Z",
+    "deliveryDate": "2023-07-10T13:00:00Z",
     "comments": "Por favor, confirmar fecha de entrega exacta.",
     "_id": "6521520d2078fc7d0c175d28"
   },
@@ -240,7 +239,7 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-11-15T16:30:00Z",
+    "deliveryDate": "2023-07-15T16:30:00Z",
     "comments": "Asegurarse de que los productos estén bien embalados.",
     "_id": "6521520d2078fc7d0c175d2a"
   },
@@ -258,270 +257,270 @@
       }
     ],
     "status": "Aceptado",
-    "deliveryDate": "2023-11-20T10:15:00Z",
+    "deliveryDate": "2023-08-20T10:15:00Z",
     "comments": "Cliente necesita asistencia técnica después de la entrega.",
     "_id": "6521520d2078fc7d0c175d52"
   },
   {
-      "budgetNumber": "OT2023016",
-      "client": "65213e75adcbf6c466e94804",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-          "quantity": 2
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-          "quantity": 1
-        }
-      ],
-      "status": "Enviado",
-      "deliveryDate": "2023-11-25T09:30:00Z",
-      "comments": "Cliente regular, enviar confirmación de envío.",
-      "_id": "6521520d2078fc7d0c175d56"
-    },
-    {
-      "budgetNumber": "OT2023017",
-      "client": "65213e75adcbf6c466e94808",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-          "quantity": 5
-        }
-      ],
-      "status": "Enviado",
-      "deliveryDate": "2023-11-30T14:00:00Z",
-      "comments": "Favor confirmar disponibilidad de productos.",
-      "_id": "6521520d2078fc7d0c175d59"
-    },
-    {
-      "budgetNumber": "OT2023018",
-      "client": "65213e75adcbf6c466e9480a",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-          "quantity": 3
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-          "quantity": 1
-        }
-      ],
-      "status": "Enviado",
-      "deliveryDate": "2023-12-05T11:45:00Z",
-      "comments": "Enviar factura proforma antes del envío.",
-      "_id": "6521520d2078fc7d0c175d5c"
-    },
-    {
-      "budgetNumber": "OT2023019",
-      "client": "65213e75adcbf6c466e9480c",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-          "quantity": 2
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-          "quantity": 1
-        }
-      ],
-      "status": "Enviado",
-      "deliveryDate": "2023-12-10T16:15:00Z",
-      "comments": "Por favor, empaquetar los productos de forma segura.",
-      "_id": "6521520d2078fc7d0c175d5f"
-    },
-    {
-      "budgetNumber": "OT2023020",
-      "client": "65213e75adcbf6c466e9480b",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-          "quantity": 2
-        }
-      ],
-      "status": "Enviado",
-      "deliveryDate": "2023-12-15T09:30:00Z",
-      "comments": "Requiere inspección de calidad antes del envío.",
-      "_id": "6521520d2078fc7d0c175d62"
-    },
-    {
-      "budgetNumber": "OT2023007",
-      "client": "65213e75adcbf6c466e94804",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-          "quantity": 2
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-          "quantity": 1
-        }
-      ],
-      "status": "Rechazado",
-      "deliveryDate": "2023-11-12T14:45:00Z",
-      "comments": "Los productos no cumplen con las especificaciones requeridas.",
-      "_id": "6521520d2078fc7d0c175d3b"
-    },
-    {
-      "budgetNumber": "OT2023008",
-      "client": "65213e75adcbf6c466e94804",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-          "quantity": 3
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-          "quantity": 2
-        }
-      ],
-      "status": "Rechazado",
-      "deliveryDate": "2023-11-18T12:30:00Z",
-      "comments": "Los productos no son los solicitados por el cliente.",
-      "_id": "6521520d2078fc7d0c175d3e"
-    },
-    {
-      "budgetNumber": "OT2023009",
-      "client": "65213e75adcbf6c466e94804",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
-          "quantity": 4
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-          "quantity": 3
-        }
-      ],
-      "status": "Rechazado",
-      "deliveryDate": "2023-11-22T15:00:00Z",
-      "comments": "Los productos llegaron dañados y no son utilizables.",
-      "_id": "6521520d2078fc7d0c175d41"
-    },
-    {
-      "budgetNumber": "OT2023010",
-      "client": "65213e75adcbf6c466e94804",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-          "quantity": 2
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-          "quantity": 1
-        }
-      ],
-      "status": "Rechazado",
-      "deliveryDate": "2023-11-25T16:45:00Z",
-      "comments": "El cliente ha cancelado el pedido.",
-      "_id": "6521520d2078fc7d0c175d44"
-    },
-    {
-      "budgetNumber": "OT2023011",
-      "client": "65213e75adcbf6c466e94804",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-          "quantity": 5
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-          "quantity": 3
-        }
-      ],
-      "status": "Rechazado",
-      "deliveryDate": "2023-11-30T14:30:00Z",
-      "comments": "El cliente encontró un proveedor con mejores precios.",
-      "_id": "6521520d2078fc7d0c175d47"
-    },
-    {
-      "budgetNumber": "OT2023012",
-      "client": "65213e75adcbf6c466e94803",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-          "quantity": 3
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-          "quantity": 2
-        }
-      ],
-      "status": "Entregado",
-      "deliveryDate": "2023-01-15T09:45:00Z",
-      "comments": "Entrega exitosa, cliente satisfecho.",
-      "_id": "6521520d2078fc7d0c175d4a"
-    },
-    {
-      "budgetNumber": "OT2023013",
-      "client": "65213e75adcbf6c466e94803",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-          "quantity": 1
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
-          "quantity": 4
-        }
-      ],
-      "status": "Entregado",
-      "deliveryDate": "2023-01-20T13:00:00Z",
-      "comments": "Productos recibidos en excelente estado.",
-      "_id": "6521520d2078fc7d0c175d4b"
-    },
-    {
-      "budgetNumber": "OT2023014",
-      "client": "65213e75adcbf6c466e94803",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-          "quantity": 2
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
-          "quantity": 2
-        }
-      ],
-      "status": "Entregado",
-      "deliveryDate": "2023-02-05T16:30:00Z",
-      "comments": "Productos en buen estado, cliente satisfecho.",
-      "_id": "6521520d2078fc7d0c175d4c"
-    },
-    {
-      "budgetNumber": "OT2023015",
-      "client": "65213e75adcbf6c466e94803",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
-          "quantity": 1
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
-          "quantity": 3
-        }
-      ],
-      "status": "Entregado",
-      "deliveryDate": "2023-02-10T10:15:00Z",
-      "comments": "Entrega puntual, cliente contento.",
-      "_id": "6521520d2078fc7d0c175d4d"
-    },
-    {
-      "budgetNumber": "OT2023016",
-      "client": "65213e75adcbf6c466e94804",
-      "products": [
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
-          "quantity": 2
-        },
-        {
-          "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
-          "quantity": 1
-        }
-      ],
-      "status": "Entregado",
-      "deliveryDate": "2023-02-15T09:30:00Z",
-      "comments": "Entrega exitosa, cliente satisfecho.",
-      "_id": "6521520d2078fc7d0c175d4e"
-    }
+    "budgetNumber": "OT2023016",
+    "client": "65213e75adcbf6c466e94804",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 1
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-08-25T09:30:00Z",
+    "comments": "Cliente regular, enviar confirmación de envío.",
+    "_id": "6521520d2078fc7d0c175d56"
+  },
+  {
+    "budgetNumber": "OT2023017",
+    "client": "65213e75adcbf6c466e94808",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 5
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-30T14:00:00Z",
+    "comments": "Favor confirmar disponibilidad de productos.",
+    "_id": "6521520d2078fc7d0c175d59"
+  },
+  {
+    "budgetNumber": "OT2023018",
+    "client": "65213e75adcbf6c466e9480a",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 3
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 1
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-09-05T11:45:00Z",
+    "comments": "Enviar factura proforma antes del envío.",
+    "_id": "6521520d2078fc7d0c175d5c"
+  },
+  {
+    "budgetNumber": "OT2023019",
+    "client": "65213e75adcbf6c466e9480c",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+        "quantity": 1
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-10-10T16:15:00Z",
+    "comments": "Por favor, empaquetar los productos de forma segura.",
+    "_id": "6521520d2078fc7d0c175d5f"
+  },
+  {
+    "budgetNumber": "OT2023020",
+    "client": "65213e75adcbf6c466e9480b",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+        "quantity": 2
+      }
+    ],
+    "status": "Enviado",
+    "deliveryDate": "2023-10-15T09:30:00Z",
+    "comments": "Requiere inspección de calidad antes del envío.",
+    "_id": "6521520d2078fc7d0c175d62"
+  },
+  {
+    "budgetNumber": "OT2023007",
+    "client": "65213e75adcbf6c466e94804",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+        "quantity": 1
+      }
+    ],
+    "status": "Rechazado",
+    "deliveryDate": "2023-10-12T14:45:00Z",
+    "comments": "Los productos no cumplen con las especificaciones requeridas.",
+    "_id": "6521520d2078fc7d0c175d3b"
+  },
+  {
+    "budgetNumber": "OT2023008",
+    "client": "65213e75adcbf6c466e94804",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 3
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 2
+      }
+    ],
+    "status": "Rechazado",
+    "deliveryDate": "2023-10-18T12:30:00Z",
+    "comments": "Los productos no son los solicitados por el cliente.",
+    "_id": "6521520d2078fc7d0c175d3e"
+  },
+  {
+    "budgetNumber": "OT2023009",
+    "client": "65213e75adcbf6c466e94804",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d7",
+        "quantity": 4
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+        "quantity": 3
+      }
+    ],
+    "status": "Rechazado",
+    "deliveryDate": "2023-11-22T15:00:00Z",
+    "comments": "Los productos llegaron dañados y no son utilizables.",
+    "_id": "6521520d2078fc7d0c175d41"
+  },
+  {
+    "budgetNumber": "OT2023010",
+    "client": "65213e75adcbf6c466e94804",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+        "quantity": 1
+      }
+    ],
+    "status": "Rechazado",
+    "deliveryDate": "2023-11-25T16:45:00Z",
+    "comments": "El cliente ha cancelado el pedido.",
+    "_id": "6521520d2078fc7d0c175d44"
+  },
+  {
+    "budgetNumber": "OT2023011",
+    "client": "65213e75adcbf6c466e94804",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+        "quantity": 5
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 3
+      }
+    ],
+    "status": "Rechazado",
+    "deliveryDate": "2023-11-30T14:30:00Z",
+    "comments": "El cliente encontró un proveedor con mejores precios.",
+    "_id": "6521520d2078fc7d0c175d47"
+  },
+  {
+    "budgetNumber": "OT2023012",
+    "client": "65213e75adcbf6c466e94803",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 3
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 2
+      }
+    ],
+    "status": "Entregado",
+    "deliveryDate": "2023-11-15T09:45:00Z",
+    "comments": "Entrega exitosa, cliente satisfecho.",
+    "_id": "6521520d2078fc7d0c175d4a"
+  },
+  {
+    "budgetNumber": "OT2023013",
+    "client": "65213e75adcbf6c466e94803",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+        "quantity": 1
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1db",
+        "quantity": 4
+      }
+    ],
+    "status": "Entregado",
+    "deliveryDate": "2023-12-20T13:00:00Z",
+    "comments": "Productos recibidos en excelente estado.",
+    "_id": "6521520d2078fc7d0c175d4b"
+  },
+  {
+    "budgetNumber": "OT2023014",
+    "client": "65213e75adcbf6c466e94803",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d9",
+        "quantity": 2
+      }
+    ],
+    "status": "Entregado",
+    "deliveryDate": "2023-12-05T16:30:00Z",
+    "comments": "Productos en buen estado, cliente satisfecho.",
+    "_id": "6521520d2078fc7d0c175d4c"
+  },
+  {
+    "budgetNumber": "OT2023015",
+    "client": "65213e75adcbf6c466e94803",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d8",
+        "quantity": 1
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1da",
+        "quantity": 3
+      }
+    ],
+    "status": "Entregado",
+    "deliveryDate": "2023-12-10T10:15:00Z",
+    "comments": "Entrega puntual, cliente contento.",
+    "_id": "6521520d2078fc7d0c175d4d"
+  },
+  {
+    "budgetNumber": "OT2023016",
+    "client": "65213e75adcbf6c466e94804",
+    "products": [
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d5",
+        "quantity": 2
+      },
+      {
+        "product_id": "5f9d88b9c4e1c1b3e4f0e1d6",
+        "quantity": 1
+      }
+    ],
+    "status": "Entregado",
+    "deliveryDate": "2023-09-15T09:30:00Z",
+    "comments": "Entrega exitosa, cliente satisfecho.",
+    "_id": "6521520d2078fc7d0c175d4e"
+  }
 ]
