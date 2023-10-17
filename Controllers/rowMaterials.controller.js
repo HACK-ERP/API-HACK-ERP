@@ -23,17 +23,12 @@ module.exports.create = (req, res, next) => {
 
 module.exports.list = (req, res, next) => {
     RowMaterial.find()
-    /* haciendo populate de los supliers
-        supliers:[
-        {
-            suplier_id: {
-                type: mongoose.Schema.Types.ObjectId,
-                ref: 'Suplier',
-                required: [true, 'Suplier ID is required'],
-            },
-        },
-    ], */
-        .populate('suppliers.supplier_id')
+        /* haciendo populate de los supliers según el código
+            suppliers: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Supplier'
+    }] */
+        .populate('suppliers')
         .then((rowMaterials) => {
             if(!rowMaterials) {
                 next(createHttpError(StatusCodes.NOT_FOUND, 'RowMaterials not found'))

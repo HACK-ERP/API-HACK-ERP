@@ -31,21 +31,7 @@ const supplierSchema = new mongoose.Schema({
         required: [true, 'Logo is required'],
         default: 'https://res.cloudinary.com/dn6cd98sl/image/upload/v1614816220/avatars/default-avatar.png',
         trim: true
-    },
-    rowMaterials: [
-        {
-            rowMaterials: {
-                type: mongoose.Schema.Types.ObjectId,
-                ref: 'RowMaterial',
-                required: [false, 'RowMaterial ID is required'],
-            },
-            price: {
-                type: Number,
-                required: [false, 'Price is required'],
-                trim: true
-            },
-        },
-    ],
+    }
 }, { timestamps: true,
     toJSON: {
         virtuals: true,
