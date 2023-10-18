@@ -14,7 +14,7 @@ require("./Config/db.config");
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://127.0.0.1:5173"],
+    origin: process.env.MONGODB_URI || ["http://localhost:5173", "http://127.0.0.1:5173"],
   })
 );
 
