@@ -10,7 +10,7 @@
   },
   {
     "_id": "5f9d88b9c4e1c1b3e4f0e1b2",
-    "name": "noubau",
+    "name": "Noubau",
     "cif": "CIF456",
     "address": "Edifici @ Sant Cugat - Via Augusta, 15-25 08174 Sant Cugat del Vallès (Barcelona)",
     "phone": 9876543210,
@@ -19,7 +19,7 @@
   },
   {
     "_id": "5f9d88b9c4e1c1b3e4f0e1b3",
-    "name": "ferrostexar",
+    "name": "Ferrostexar",
     "cif": "CIF789",
     "address": "Carrer Maresme 2, nau G Pol. Palaudaries Lliça de Vall 08185 Barcelona",
     "phone": 5555555555,
@@ -28,7 +28,7 @@
   },
   {
     "_id": "5f9d88b9c4e1c1b3e4f0e1b4",
-    "name": "fatih",
+    "name": "Fatih",
     "cif": "CIF101",
     "address": "Turan Bahadır Cd. No:15, 20330 Organize Sanayi Bölgesi/Honaz/Denizli, Turquía",
     "phone": 1111111111,
@@ -37,7 +37,7 @@
   },
   {
     "_id": "5f9d88b9c4e1c1b3e4f0e1b5",
-    "name": "tribunas figueiredo",
+    "name": "Tribunas Figueiredo",
     "cif": "CIF202",
     "address": "Zona Industrial de Assequins",
     "phone": 2222222222,
@@ -46,7 +46,7 @@
   },
   {
     "_id": "5f9d88b9c4e1c1b3e4f0e1b6",
-    "name": "metalin",
+    "name": "Metalin",
     "cif": "CIF303",
     "address": "4023 Plovdiv, cas. postale 42, Bulgaria",
     "phone": 3333333333,
@@ -73,7 +73,7 @@
   },
   {
     "_id": "5f9d88b9c4e1c1b3e4f0e1b9",
-    "name": "aceropanel",
+    "name": "Aceropanel",
     "cif": "CIF606",
     "address": "CALLE CASTELLO, 115 - B LOC 7 - 28006 MADRID (Madrid)",
     "phone": 6666666666,
@@ -82,7 +82,7 @@
   },
   {
     "_id": "5f9d88b9c4e1c1b3e4f0e1ba",
-    "name": "comprahierro",
+    "name": "Comprahierro",
     "cif": "CIF707",
     "address": "Calle Ingeniero Juan García, 80, 51 CP:03140 Guardamar del Segura (Alicante), España",
     "phone": 7777777777,
@@ -91,7 +91,7 @@
   },
   {
     "_id": "5f9d88b9c4e1c1b3e4f0e1bb",
-    "name": "hierros y aceros",
+    "name": "Hierros y aceros",
     "cif": "CIF808",
     "address": "Calle de la Industria, 2, 28947 Fuenlabrada, Madrid",
     "phone": 8888888888,
@@ -100,7 +100,7 @@
   },
   {
     "_id": "5f9d88b9c4e1c1b3e4f0e1bc",
-    "name": "gloma",
+    "name": "Gloma",
     "cif": "CIF909",
     "address": "Calle de la Industria, 2, 28947 Fuenlabrada, Madrid",
     "phone": 9999999999,
@@ -109,7 +109,7 @@
   },
   {
     "_id": "5f9d88b9c4e1c1b3e4f0e1bd",
-    "name": "hainafasteners",
+    "name": "Hainafasteners",
     "cif": "CIF010",
     "address": "Calle de la Industria, 2, 28947 Fuenlabrada, Madrid",
     "phone": 1010101010,
