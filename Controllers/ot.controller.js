@@ -34,16 +34,10 @@ module.exports.list = (req, res, next) => {
 module.exports.getOne = (req, res, next) => {
   console.log("Get request received. Params:", req.params);
   OT.findById(req.params.id)
-    .populate([
-      {
-        path: "products.product_id",
-        model: "Product",
-      },
-      {
-        path: "client.client_id",
-        model: "Client",
-      },
-    ])
+    .populate({
+      path: "budget",
+      model: "Budget",
+    })
     .then((ot) => {
       if (ot) {
         res.status(StatusCodes.OK).json(ot);
