@@ -20,7 +20,6 @@ transporter.on('sent', (info) => {
 
 
 module.exports.sendValidationEmail = (user) => {
-  console.log(user);
   console.log("user ID is: " + user._id);
   transporter
     .sendMail({
@@ -42,7 +41,6 @@ module.exports.sendValidationEmail = (user) => {
 };
 
 module.exports.sendBudgetEmail = (budget) => {
-  console.log(budget);
   console.log("budget ID is: " + budget._id);
 
   const productsTable = parseProducts(budget.products).join("");
@@ -91,7 +89,6 @@ module.exports.sendBudgetEmail = (budget) => {
 };
 
 const parseProducts = (products) => {
-  console.log(products);
   return products.map((product) => {
     const subtotal = product.product.price * product.quantity;
     product.subtotal = subtotal;

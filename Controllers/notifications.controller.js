@@ -14,7 +14,9 @@ module.exports.list = (req, res, next) => {
         .populate('sender')
         .then(notifications => {
             notifications.forEach(notification => {
-                console.log(notification.sender);
+                if (notification.sender) {
+                    notification.sender.password = undefined;
+                }
             });
             res.status(StatusCodes.OK).json(notifications);
         })
