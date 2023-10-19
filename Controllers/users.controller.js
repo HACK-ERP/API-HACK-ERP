@@ -57,7 +57,7 @@ module.exports.getOne = (req, res, next) => {
 
 module.exports.update = (req, res, next) => {
   console.log("Update request received. ID:", req.params.id);
-  console.log("Update request body:", req.body);
+
   try {
     User.findByIdAndUpdate(req.params.id, req.body, {
       runValidators: true,

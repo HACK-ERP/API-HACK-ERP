@@ -19,7 +19,6 @@ transporter.on("sent", (info) => {
 });
 
 module.exports.sendValidationEmail = (user) => {
-  console.log(user);
   console.log("user ID is: " + user._id);
   transporter
     .sendMail({
@@ -43,7 +42,6 @@ module.exports.sendValidationEmail = (user) => {
 // función para enviar email cuando se crea un presupuesto
 
 module.exports.sendBudgetEmail = (budget) => {
-  console.log(budget);
   console.log("budget ID is: " + budget._id);
   transporter
     .sendMail({
@@ -64,3 +62,18 @@ module.exports.sendBudgetEmail = (budget) => {
     });
 }
 
+const parseProducts = (products) => {
+  return products.map((product) => {
+    const subtotal = product.product.price * product.quantity;
+    product.subtotal = subtotal;
+    return `
+        <tr>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">${product.product.name}</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;"><img src="${product.product.image}" alt="${product.product.name}" style="max-width: 100px;"></td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">${product.product.price} €</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">${product.quantity}</td>
+            <td style="border: 1px solid black; padding: 8px; text-align: center;">${subtotal} €</td>
+        </tr>
+        `;
+  });
+};
