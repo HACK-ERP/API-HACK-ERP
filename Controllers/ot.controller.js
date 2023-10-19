@@ -45,6 +45,11 @@ module.exports.list = (req, res, next) => {
 module.exports.getOne = (req, res, next) => {
   console.log("Get request received. Params:", req.params);
   OT.findById(req.params.id)
+  //populando el buget de     budget: {
+    //     type: mongoose.Schema.Types.ObjectId,
+    //     ref: 'Budget',
+    //     required: [true, 'Budget ID is required'],
+    // },
     .populate({
       path: "budget",
       model: "Budget",
