@@ -59,27 +59,6 @@ module.exports.getOne = (req, res, next) => {
     .catch((error) => next(error));
 };
 
-// module.exports.update = (req, res, next) => {
-//   const id = req.params.id;
-//   console.log("Update request received. Params:", req.params);
-//   OT.findByIdAndUpdate(id, req.body, {
-//     runValidators: true,
-//     new: true,
-//   })
-//     .populate("products.product_id")
-//     .populate("client.client_id")
-//     .then((ot) => {
-//       if (!ot) {
-//         throw createError(StatusCodes.NOT_FOUND, "OT not found");
-//       } else {
-//         console.log("OT updated successfully:", ot);
-//         res.status(StatusCodes.OK).json(ot);
-//       }
-//     })
-//     .catch((error) => next(error));
-// };
-//delete
-
 module.exports.delete = (req, res, next) => {
   console.log("Delete request received. Params:", req.params);
   OT.findByIdAndDelete(req.params.id)
@@ -92,3 +71,29 @@ module.exports.delete = (req, res, next) => {
     })
     .catch((error) => next(error));
 };
+
+module.exports.statusUpdate = (req, res, next) => {
+  const id = req.params.id;
+  const status = req.body.status;
+  const user = req.body.user;
+
+  OT.findByIdAndUpdate(id, { status: status }, { new: true })
+  .then((ot) => {
+    if (!ot) {
+      throw createError(StatusCodes.NOT_FOUND, "OT not found");
+    } else {
+      const notification = new Notification({
+        sender: user,
+        receiver: "Logistica",
+        message: `La OT ${ot.code} Requiere materiales`,
+      });
+      notification.save();
+      res.status(StatusCodes.OK).json(ot);
+    }
+
+  })
+  .catch((error) => {
+    console.log(error);
+    next(error)
+  });
+}
