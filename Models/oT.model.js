@@ -52,6 +52,7 @@ oTSchema.virtual('requiredMaterials', {
                 material_id: material.material_id, 
                 quantity: requiredQuantity,
                 price: materialInfo.price,
+                otId: this._id,
             });
         }
     }
