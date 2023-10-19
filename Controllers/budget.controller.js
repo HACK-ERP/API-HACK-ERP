@@ -1,23 +1,30 @@
 const createError = require("http-errors");
 const Budget = require("../Models/Budget.model");
+// const Client = require("../Models/Clients.model");
 const { StatusCodes } = require("http-status-codes");
 
 const Notification = require("../Models/Notifications.model");
 const sendNotification = require("../Util/sendNotification");
 
+const mailer = require("../Config/nodemailer.config");
+
 module.exports.create = (req, res, next) => {
-    console.log("Create request received. Body:", req.body);
-    
-    const budget = new Budget(req.body);
-    budget.save()
-        .then((budget) => {
-            console.log("Budget created successfully:", budget);
-            res.status(StatusCodes.CREATED).json(budget);
-        })
-        .catch((error) => next(error));
+  console.log("Create request received. Body:", req.body);
 
+  const budget = new Budget(req.body);
+  budget
+    .save()
+    .then((budget) => {
+      if (!budget) {
+        throw createError(StatusCodes.BAD_REQUEST, "Budget not created");
+      } else {
+      console.log("Budget created successfully:", budget);
+      mailer.sendBudgetEmail(budget);
+      res.status(StatusCodes.CREATED).json(budget);
+      }
+    })
+    .catch((error) => next(error));
 };
-
 
 module.exports.list = (req, res, next) => {
   Budget.find()

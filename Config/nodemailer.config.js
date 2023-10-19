@@ -10,14 +10,13 @@ const transporter = nodemailer.createTransport({
 });
 
 // Registrar eventos del transportador
-transporter.on('error', (err) => {
-  console.error('Error en el transporte:', err);
+transporter.on("error", (err) => {
+  console.error("Error en el transporte:", err);
 });
 
-transporter.on('sent', (info) => {
-  console.log('Correo electrónico enviado:', info.response);
+transporter.on("sent", (info) => {
+  console.log("Correo electrónico enviado:", info.response);
 });
-
 
 module.exports.sendValidationEmail = (user) => {
   console.log("user ID is: " + user._id);
@@ -33,60 +32,35 @@ module.exports.sendValidationEmail = (user) => {
       `,
     })
     .then(() => {
-      console.log(`email sent to ${user._id}`);
+      console.log(`email sent to ${user.email}`);
     })
     .catch((err) => {
       console.error("error sending mail", err);
     });
 };
+
+// función para enviar email cuando se crea un presupuesto
 
 module.exports.sendBudgetEmail = (budget) => {
   console.log("budget ID is: " + budget._id);
-
-  const productsTable = parseProducts(budget.products).join("");
-  const totalSubtotal = budget.products.reduce(
-    (total, product) => total + product.subtotal,
-    0
-  );
-
   transporter
     .sendMail({
       from: `"HackERP" <${email}>`,
-      to: budget.client.email,
-      subject: "Confirmación de Presupuesto",
+      to: budget.client.Email,
+      subject: "Nuevo presupuesto",
       html: `
-        <p>Saludos cordiales</p>
-        <p>Gracias por confiar en HackERP</p>
-        <p>Aquí tienes los detalles de tu presupuesto:</p>
-        <table style="border-collapse: collapse; width: 100%;">
-          <thead>
-            <tr>
-                <th style="border: 1px solid black; padding: 8px; text-align: center;">Producto</th>
-                <th style="border: 1px solid black; padding: 8px; text-align: center;">Imagen</th>
-                <th style="border: 1px solid black; padding: 8px; text-align: center;">Precio</th>
-                <th style="border: 1px solid black; padding: 8px; text-align: center;">Cantidad</th>
-                <th style="border: 1px solid black; padding: 8px; text-align: center;">Subtotal</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${productsTable}
-            <tr>
-                <td colspan="4" style="border: 1px solid black; padding: 8px; text-align: center;">Total</td>
-                <td style="border: 1px solid black; padding: 8px; text-align: center;">${totalSubtotal} €</td>
-            </tr>
-          </tbody>
-        </table>
-        <br />
-        <h3>El equipo de HackERP</h3>
+        <h1>Nuevo presupuesto</h1>
+        <p>Se ha creado un nuevo presupuesto para usted</p>
+        <a href="${process.env.APP_HOST}/hackerp/budgets/${budget._id}">Click aquí</a>
       `,
     })
     .then(() => {
-      console.log(`email sent to ${budget.client.email}`);
+      console.log(`email sent to ${budget.client.Email}`);
     })
     .catch((err) => {
       console.error("error sending mail", err);
     });
-};
+}
 
 const parseProducts = (products) => {
   return products.map((product) => {
