@@ -70,3 +70,34 @@ module.exports.update = (req, res, next) => {
         .catch(next);
 }
 
+//stok update
+
+module.exports.PurchaseMaterials = (req, res, next) => {
+    const { id } = req.params;
+
+    RowMaterial.findByIdAndUpdate(id, { $inc: { stock: req.body.stock } }, { new: true })
+        .then((rowMaterial) => {
+            if(!rowMaterial) {
+                //mail
+                next(createHttpError(StatusCodes.NOT_FOUND, 'RowMaterial not found'))
+            } else {
+                res.status(StatusCodes.OK).json(rowMaterial)
+            }
+        })
+        .catch(next);
+}
+
+module.exports.discountStock = (req, res, next) => {
+    const { id } = req.params;
+
+    RowMaterial.findByIdAndUpdate(id, { $inc: { stock: req.body.stock } }, { new: true })
+        .then((rowMaterial) => {
+            if(!rowMaterial) {
+                next(createHttpError(StatusCodes.NOT_FOUND, 'RowMaterial not found'))
+            } else {
+                res.status(StatusCodes.OK).json(rowMaterial)
+            }
+        })
+        .catch(next);
+}
+
