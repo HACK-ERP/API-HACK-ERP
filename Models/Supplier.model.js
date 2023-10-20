@@ -4,7 +4,8 @@ const supplierSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, 'Name is required'],
-        trim: true
+        trim: true,
+        autoComplete: false,
     },
     cif: {
         type: String,
