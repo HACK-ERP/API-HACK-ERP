@@ -60,6 +60,7 @@ module.exports.list = (req, res, next) => {
 };
 
 module.exports.detail = (req, res, next) => {
+  console.log("Detail request received. ID:", req.params.id);
   Budget.findById(req.params.id)
     .populate([
       {
