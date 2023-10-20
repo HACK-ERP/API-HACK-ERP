@@ -16,6 +16,9 @@ router.get('/rowMaterial/:id', rowMaterialController.getOne);
 router.put('/rowMaterial/:id/edit', upload.single('image'), rowMaterialController.update);
 //stock update
 router.patch('/rowMaterial/:id/stock', rowMaterialController.PurchaseMaterials);
+//discount stock
+router.patch('/rowMaterial/:id/discount', rowMaterialController.discountStock);
+
 
 module.exports = router;
 

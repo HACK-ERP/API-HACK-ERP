@@ -75,7 +75,7 @@ module.exports.update = (req, res, next) => {
 module.exports.PurchaseMaterials = (req, res, next) => {
     const { id } = req.params;
 
-    RowMaterial.findByIdAndUpdate(id, { $inc: { stock: req.body.stock } }, { new: true })
+    RowMaterial.findByIdAndUpdate(id, { $inc: { stock: req.body.stock, price:req.body.price} }, { new: true })
         .then((rowMaterial) => {
             if(!rowMaterial) {
                 //mail
