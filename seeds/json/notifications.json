@@ -18,7 +18,7 @@
     "status": "No leído"
   },
   {
-    "sender": "652979a04855c43cb09bcb42",
+    "sender": "652979a04855c43cb09bcb43",
     "receiver": "Administrador",
     "message": "Se ha completado la tarea de mantenimiento programada.",
     "status": "No leído"
@@ -36,7 +36,7 @@
     "status": "No leído"
   },
   {
-    "sender": "652979a04855c43cb09bcb46",
+    "sender": "652979a04855c43cb09bcb42",
     "receiver": "Administrador",
     "message": "Informe de ventas del mes pasado adjunto.",
     "status": "No leído"
