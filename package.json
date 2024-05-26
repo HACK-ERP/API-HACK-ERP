@@ -14,7 +14,8 @@
     "oT.seeds": "node ./seeds/ot.seed.js",
     "clients.seeds": "node ./seeds/clients.seed.js",
     "budgets.seeds": "node ./seeds/budgets.seed.js",
-    "notifications.seeds": "node ./seeds/notifications.seed.js"
+    "notifications.seeds": "node ./seeds/notifications.seed.js",
+    "allSeeds.seeds": "npm run users.seeds && npm run products.seeds && npm run suppliers.seeds && npm run rowMaterials.seeds && npm run oT.seeds && npm run clients.seeds && npm run budgets.seeds && npm run notifications.seeds"
   },
   "author": "",
   "license": "ISC",

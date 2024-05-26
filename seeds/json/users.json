@@ -20,7 +20,6 @@
     "active": true,
     "avatar": "https://image.tmdb.org/t/p/w500/cPuPt6mYJ83DjvO3hbjNGug6Fbi.jpg",
     "id": "652979a04855c43cb09bcb3f"
-
   },
   {
     "name": "Idris Elba",
@@ -109,5 +108,16 @@
     "active": true,
     "avatar": "https://image.tmdb.org/t/p/w500/uQYUfGvOZkB5x25Z19UeyLABHmr.jpg",
     "id": "652979a04855c43cb09bcb47"
+  },
+  {
+    "name": "Juan Cruz",
+    "surname": "Juan",
+    "email": "j.cruzb@outlook.com",
+    "password": "juan123",
+    "phone": 1234567899,
+    "role": "Administrador",
+    "active": true,
+    "avatar": "https://avatars.githubusercontent.com/u/81054118?v=4",
+    "id": "652979a04855c43cb09bcb49"
   }
 ]
